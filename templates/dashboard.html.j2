@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ source }} Dashboard</title>
+<style>
+{% include "_theme.css.j2" %}
+.top { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; }
+.top .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.headline { margin-bottom: 16px; border-left: 4px solid var(--accent); }
+.headline p.big { font-size: 1.12rem; font-weight: 600; }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 16px; margin-top: 16px; }
+.section { margin-top: 16px; }
+.insight { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.insight:last-child { border-bottom: 0; }
+.insight .head { display: flex; gap: 10px; align-items: baseline; justify-content: space-between; }
+.insight .evidence { font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.controls input, .controls select {
+  font: inherit; font-size: 0.86rem; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); min-width: 0;
+}
+.controls input[type="search"] { flex: 1 1 220px; }
+.controls label { display: inline-flex; align-items: center; gap: 6px; font-size: 0.86rem; color: var(--text-secondary); }
+.table-scroll { max-height: 520px; overflow: auto; }
+.stat-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-top: 12px; }
+.stat-list div { background: var(--surface-2); border-radius: 8px; padding: 10px 12px; }
+.stat-list b { display: block; font-size: 1.2rem; }
+.stat-list span { font-size: 0.8rem; color: var(--text-secondary); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <p class="muted" style="font-size:.85rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase">Data Intelligence Dashboard</p>
+      <h1>{{ source }}</h1>
+      <div class="meta">
+        <span class="badge">Generated {{ generated_at }}</span>
+        {% if engine == "claude" %}<span class="badge ai">Insights by Claude · {{ model }}</span>
+        {% else %}<span class="badge">Rule-based insights (Claude not used)</span>{% endif %}
+        <span class="badge">{{ rows_analyzed }} rows analysed</span>
+        {% if report_file %}<a class="badge" href="{{ report_file }}">Open full report →</a>{% endif %}
+      </div>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" type="button">Toggle theme</button>
+  </header>
+
+  {% for note in notes %}<p class="notice" style="margin-bottom:12px">{{ note }}</p>{% endfor %}
+
+  <section class="card headline">
+    <p class="big">{{ insights.headline }}</p>
+    <p class="secondary" style="margin-top:6px">{{ insights.executive_summary }}</p>
+  </section>
+
+  <section class="kpis" aria-label="Key figures">
+    {% for k in kpis %}
+    <div class="card kpi">
+      <div class="label">{{ k.label }}</div>
+      <div class="value">{{ k.value }}</div>
+      {% if k.sub %}<div class="sub {{ k.delta_class }}">{{ k.sub }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  {% if chart_data.monthly %}
+  <section class="card section">
+    <h2>{{ amount_label }} by month</h2>
+    <p class="muted" style="font-size:.85rem">Hover a point for the exact value.</p>
+    <div class="chart-box"><canvas id="chart-monthly" role="img" aria-label="{{ amount_label }} by month line chart"></canvas></div>
+  </section>
+  {% endif %}
+
+  <div class="grid-2">
+    {% for dim in chart_data.dimensions %}
+    <section class="card">
+      <h2>{{ amount_label }} by {{ dim.title }}</h2>
+      <p class="muted" style="font-size:.85rem">{% if dim.distinct > dim.labels|length %}Top {{ dim.labels|length }} of {{ dim.distinct }}{% else %}All {{ dim.distinct }} values{% endif %}</p>
+      <div class="chart-box" style="height: {{ 60 + 34 * dim.labels|length }}px"><canvas id="chart-dim-{{ loop.index0 }}" role="img" aria-label="{{ amount_label }} by {{ dim.title }} bar chart"></canvas></div>
+    </section>
+    {% endfor %}
+  </div>
+
+  <div class="grid-2">
+    <section class="card">
+      <h2>Key insights</h2>
+      {% for item in insights.key_insights %}
+      <div class="insight">
+        <div class="head"><h3>{{ item.title }}</h3><span class="pill {{ item.impact }}">{{ item.impact }}</span></div>
+        <p class="secondary" style="margin-top:4px">{{ item.detail }}</p>
+        <p class="evidence">{{ item.evidence }}</p>
+      </div>
+      {% endfor %}
+    </section>
+    <section class="card">
+      <h2>Recommendations</h2>
+      {% for rec in insights.recommendations %}
+      <div class="insight">
+        <div class="head"><h3>{{ loop.index }}. {{ rec.action }}</h3><span class="pill {{ rec.priority }}">{{ rec.priority }}</span></div>
+        <p class="secondary" style="margin-top:4px">{{ rec.rationale }}</p>
+        <p class="evidence">Expected impact: {{ rec.expected_impact }}</p>
+      </div>
+      {% endfor %}
+      {% if insights.anomalies %}
+      <h2 style="margin-top:16px">Anomalies</h2>
+      <ul class="clean secondary">{% for a in insights.anomalies %}<li>{{ a }}</li>{% endfor %}</ul>
+      {% endif %}
+    </section>
+  </div>
+
+  <section class="card section">
+    <h2>Data cleaning</h2>
+    <p class="secondary">Quality score {{ quality_before }}% → <b>{{ quality_after }}%</b> · {{ cleaning.rows_before }} → {{ cleaning.rows_after }} rows</p>
+    <div class="stat-list">
+      {% for label, value in cleaning_stats %}<div><b>{{ value }}</b><span>{{ label }}</span></div>{% endfor %}
+    </div>
+  </section>
+
+  <section class="card section">
+    <h2>Cleaned data</h2>
+    <p class="muted" style="font-size:.85rem">Showing <span id="row-count">{{ table.shown_rows }}</span> of {{ table.total_rows }} rows{% if table.shown_rows < table.total_rows %} (first {{ table.shown_rows }} loaded; full file in data/cleaned){% endif %}. Rows flagged “inconsistent” are highlighted.</p>
+    <div class="controls">
+      <input type="search" id="table-search" placeholder="Search all columns…" aria-label="Search rows">
+      {% for f in table.filters %}
+      <select data-col="{{ f.index }}" aria-label="Filter by {{ f.title }}">
+        <option value="">All {{ f.title }}</option>
+        {% for v in f["options"] %}<option>{{ v }}</option>{% endfor %}
+      </select>
+      {% endfor %}
+      {% if table.flag_index is not none %}<label><input type="checkbox" id="flagged-only"> Flagged rows only</label>{% endif %}
+    </div>
+    <div class="table-scroll">
+      <table id="data-table">
+        <thead><tr>{% for c in table.columns %}<th{% if loop.index0 in table.numeric %} class="num"{% endif %}>{{ c }}</th>{% endfor %}</tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>Generated by Data Intelligence Agent{% if author %} for {{ author }}{% endif %}{% if company %} · {{ company }}{% endif %} · {{ generated_at }}</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const CHART_DATA = {{ chart_data | tojson }};
+const TABLE = {{ table | tojson }};
+{% include "_charts.js.j2" %}
+
+(function () {
+  const body = document.querySelector("#data-table tbody");
+  const search = document.getElementById("table-search");
+  const selects = Array.from(document.querySelectorAll(".controls select"));
+  const flagged = document.getElementById("flagged-only");
+  const counter = document.getElementById("row-count");
+  const numeric = new Set(TABLE.numeric);
+
+  function render() {
+    const q = search.value.trim().toLowerCase();
+    const active = selects.filter(function (s) { return s.value; });
+    const rows = TABLE.rows.filter(function (r) {
+      if (flagged && flagged.checked && !r[TABLE.flag_index]) return false;
+      for (const s of active) if (String(r[+s.dataset.col]) !== s.value) return false;
+      return !q || r.some(function (v) { return v !== null && String(v).toLowerCase().includes(q); });
+    });
+    const frag = document.createDocumentFragment();
+    rows.forEach(function (r) {
+      const tr = document.createElement("tr");
+      if (TABLE.flag_index !== null && r[TABLE.flag_index] === "inconsistent") tr.className = "flag-inconsistent";
+      r.forEach(function (v, i) {
+        const td = document.createElement("td");
+        if (numeric.has(i)) { td.className = "num"; td.textContent = v === null ? "–" : Number(v).toLocaleString(); }
+        else td.textContent = v === null ? "–" : v;
+        tr.appendChild(td);
+      });
+      frag.appendChild(tr);
+    });
+    body.replaceChildren(frag);
+    counter.textContent = rows.length;
+  }
+  search.addEventListener("input", render);
+  selects.forEach(function (s) { s.addEventListener("change", render); });
+  if (flagged) flagged.addEventListener("change", render);
+  render();
+})();
+</script>
+</body>
+</html>

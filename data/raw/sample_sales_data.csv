@@ -1,0 +1,621 @@
+ Order ID,order_date,Customer Name,PRODUCT,Category,Region,Sales Rep,Channel,Quantity,Unit Price,Revenue (EUR)
+ORD-10034,04-Jul-2025,Iris Studio,Starter Plan,Subscription, Europe  ,Kenji Sato, Website  ,10,€309.49,3094.90
+ORD-10426,Mar 27 2025,Lumen Edu,Team Plan,Subscription,North America,Sofia Rossi,Direct Sales,1,671.75,671.75
+ORD-10371,2025-05-06,Riverstone,Team Plan,Subscription,Europe,Sofia Rossi, Mobile App  ,3,678.91,"€2,036.73"
+ORD-10023,Nov 13 2025,Futura Labs,Analytics Add-on,Add-on,Europe,Kenji Sato,Website,2,€176.00,352.00
+ORD-10279,2025-09-30,Iris Studio,Onboarding Pack,Services,NORTH AMERICA,Kenji Sato,Mobile App,3,472.79 EUR,"€1,418.37"
+ORD-10456,2025-11-23,Nova Fintech,Starter Plan,Subscription,Asia Pacific,Nadia Haddad,Mobile App,1,298.40,€298.40
+ORD-10446,17-Dec-2025,-,ONBOARDING PACK,Services,EUROPE,Nadia Haddad,Website,3,  433 ,1298.01
+ORD-10156,2025-05-26,Brightwave,Starter Plan,Subscription,North America,Tom Becker,MOBILE APP,3,271.92,€815.76
+ORD-10330,Feb 21 2025,Lumen Edu, Starter Plan  ,Subscription,Middle East,Amira Benali,website,1,€263.73,  264 
+ORD-10142,2025/03/19,Lumen Edu,Analytics Add-on,Add-on, Asia Pacific  ,Tom Becker, Mobile App  ,-,  168 ,€336.54
+ORD-10123,2025-09-30,Granite Bank,premium plan,Subscription, North America  ,null,Mobile App,3,"€1,183.02",3549.06
+ORD-10000,2025-09-27,Nova Fintech,premium plan,Subscription, Europe  ,Nadia Haddad,Website,3,1242.41,N/A
+ORD-10553,2025-12-19,Juniper Foods,Starter Plan,Subscription,Europe,Lucas Martin,mobile app,2,270.46,540.92 EUR
+ORD-10412,2025-12-19,Mosaic Travel,Analytics Add-on,Add-on,Middle East,Amira Benali,Website,2,N/A,359.68
+ORD-10401,2025-03-25,Riverstone,Analytics Add-on,Add-on,North America,Sofia Rossi,Website,1,196.05 EUR,196.05
+ORD-10331,2025-11-05,Brightwave,Onboarding Pack,Services,North America,Amira Benali,Mobile App,5,  484 ,"€2,418.15"
+ORD-10369,2025/07/04,Iris Studio,Onboarding Pack,Services,Europe,Nadia Haddad,Direct Sales,5,  458 ,"€2,289.35"
+ORD-10519,2025-07-26,Orbit Games,Onboarding Pack,Services,North America,Lucas Martin, Direct Sales  ,1,436.34,null
+ORD-10215,12-Oct-2025,Brightwave,Premium Plan,Subscription,North America,Lucas Martin,Website,2,"€1,244.63",  2489 
+ORD-10268,2025/10/28,Helix Robotics,starter plan,Subscription, Europe  ,Sofia Rossi,mobile app,2,262.11 EUR,524.22 EUR
+ORD-10273,2025-03-26,Granite Bank,Onboarding Pack,Services, North America  ,Lucas Martin,Website,5,469.93,"€2,349.65"
+ORD-10357,2025/06/30,Orbit Games,Premium Plan,Subscription,Europe,Nadia Haddad,Mobile App,4,  1162 ,"€4,647.88"
+ORD-10306,2025-07-16,Iris Studio, Team Plan  ,Subscription,Europe,Kenji Sato,DIRECT SALES,1,605.72,605.72
+ORD-10297,2025/05/31,Iris Studio,Team Plan,Subscription,Middle East,Tom Becker,Website,4,679.28,2717.12
+ORD-10475,2025-05-12,Nova Fintech,Premium Plan,Subscription,north america,Nadia Haddad,Partner,1,"€1,172.60",  1173 
+ORD-10131,2025-11-19,Mosaic Travel,Team Plan,Subscription,Europe,Sofia Rossi,Mobile App,1,614.01,614.01 EUR
+ORD-10517,2025/09/01,Pixel Forge,PREMIUM PLAN,Subscription, North America  ,Nadia Haddad, Direct Sales  ,1,1218.16,1218.16
+ORD-10238,2025-09-21,Pixel Forge,Starter Plan,Subscription,null,Nadia Haddad,Mobile App,2,261.33,522.66
+ORD-10363,2025-07-09,Pixel Forge,Starter Plan,Subscription, North America  ,Tom Becker,Direct Sales,2,€285.71,571.42
+ORD-10117,Oct 01 2025,Helix Robotics,Starter Plan,Subscription,Europe,Kenji Sato,Mobile App,1,€270.70,270.70
+ORD-10099,2025-08-27,Delta Retail,Onboarding Pack,Services,Europe,Lucas Martin,Direct Sales,1,428.54,428.54
+ORD-10532,2025-10-11,-,Premium Plan,Subscription,ASIA PACIFIC,Tom Becker,Mobile App,1,"€1,156.57","€1,156.57"
+ORD-10032,2025/12/22,-,Premium Plan,Subscription,null,Tom Becker,Direct Sales,1,1099.48,1099.48 EUR
+ORD-10246,2025/10/23,Cedar Health,Starter Plan,Subscription,north america,Tom Becker,Direct Sales,1,  315 ,315.08
+ORD-10305,2025-02-01,Cedar Health,Premium Plan,Subscription,North America,Lucas Martin,Website,3,1263.73,3791.19
+ORD-10597,03-Dec-2025,Pixel Forge,ONBOARDING PACK,Services,Europe,Kenji Sato,Mobile App,1,442.23,442.23 EUR
+ORD-10579,Oct 07 2025,Quartz Legal,Analytics Add-on,Add-on,Europe,Kenji Sato,PARTNER,3,174.50,523.50
+ORD-10544,19-Mar-2025,Mosaic Travel,Starter Plan,Subscription,Middle East,Amira Benali,Website,1,300.26 EUR,300.26 EUR
+ORD-10283,2025-01-22,Lumen Edu,Starter Plan,Subscription,Europe,Amira Benali,Website,1,293.62,null
+ORD-10165,2025-05-02,Delta Retail,Premium Plan,Subscription,ASIA PACIFIC,Tom Becker,Mobile App,5,  1166 ,5832.25 EUR
+ORD-10084,Dec 21 2025,Iris Studio, Starter Plan  ,Subscription,North America,Lucas Martin,Direct Sales,3,311.32 EUR,€933.96
+ORD-10413,2025/07/03,Quartz Legal,Team Plan,Subscription,europe,Tom Becker,Direct Sales,1,595.74 EUR,595.74 EUR
+ORD-10347,2025/01/25,Iris Studio, Onboarding Pack  ,Services,North America,Tom Becker,Website,1,416.07 EUR,416.07 EUR
+ORD-10340,2025/03/17,Brightwave,Starter Plan,Subscription,Middle East,Tom Becker,website,2,  307 ,€613.78
+ORD-10377,Jul 11 2025,Delta Retail,Starter Plan,Subscription,North America,Amira Benali,Direct Sales,3,261.77,785.31
+ORD-10278,2025/11/11,Brightwave,Onboarding Pack,Services,Europe,Lucas Martin,Mobile App,3,409.93 EUR,1229.79
+ORD-10479,2025-12-13,Orbit Games, Starter Plan  ,Subscription,North America,Nadia Haddad, Partner  ,10,€294.28,2942.80
+ORD-10509,2025-07-31,Delta Retail,Onboarding Pack,Services,Europe,Sofia Rossi,WEBSITE,1,461.84 EUR,461.84
+ORD-10315,2025-09-29,Nova Fintech,Premium Plan,Subscription,europe,Sofia Rossi,Mobile App,10,"€1,175.41",11754.10 EUR
+ORD-10459,2025-11-05,Granite Bank,STARTER PLAN,Subscription,Europe,Tom Becker,Mobile App,3,281.47,€844.41
+ORD-10356,Jul 09 2025,Juniper Foods,Starter Plan,Subscription,asia pacific,Nadia Haddad,Website,N/A,286.28,286.28 EUR
+ORD-10563,2025-03-04,Granite Bank,Analytics Add-on,Add-on,Europe,Lucas Martin,Mobile App,5,169.51,  848 
+ORD-10457,10-Dec-2025,Nova Fintech,custom integration,Services,Middle East,Nadia Haddad,Website,1,2556.22,2556.22
+ORD-10188,2025-03-28,Pixel Forge,Analytics Add-on,Add-on, North America  ,Nadia Haddad,Mobile App,3,€179.41,  538 
+ORD-10202,2025-12-22,Futura Labs,Custom Integration,Services,Europe,Nadia Haddad,Partner,5,  2583 ,12914.35
+ORD-10096,2025/12/02,Futura Labs,Analytics Add-on,Add-on,Europe,Tom Becker,Partner,1,€182.04,182.04
+ORD-10267,Oct 21 2025,Orbit Games,TEAM PLAN,Subscription,Europe,, Website  ,2,€625.01,  1250 
+ORD-10404,07-Nov-2025,Delta Retail,Premium Plan,Subscription,North America,Kenji Sato,Website,1,1315.08,1315.08
+ORD-10068,2025/09/26,Kappa Energy,Analytics Add-on,Add-on,Europe,Tom Becker,Website,4,174.41 EUR,697.64 EUR
+ORD-10141,2025-05-28,Echo Media,Team Plan,Subscription,Asia Pacific,Sofia Rossi,Partner,1,689.32,689.32
+ORD-10166,2025-06-02,Futura Labs,Premium Plan,Subscription,EUROPE,Lucas Martin,Partner,4,"€1,245.58","€4,982.32"
+ORD-10014,2025/07/02,Echo Media,PREMIUM PLAN,Subscription,Europe,Amira Benali, Mobile App  ,5,1210.94,  6055 
+ORD-10140,2025/11/24,Echo Media, Premium Plan  ,Subscription,North America,Kenji Sato, Mobile App  ,3,1299.36,3898.08
+ORD-10572,2025-12-17,Helix Robotics, Analytics Add-on  ,Add-on,Middle East,Lucas Martin,Website,4,€193.88,775.52 EUR
+ORD-10351,30-Apr-2025,Riverstone,Team Plan,Subscription,-,Tom Becker,Direct Sales,4,609.94,"€2,439.76"
+ORD-10241,2025-07-02,Pixel Forge, Custom Integration  ,Services,Europe,,Direct Sales,2,2605.01 EUR,"€5,210.02"
+ORD-10520,2025/05/27,Mosaic Travel,Analytics Add-on,Add-on,Middle East,Nadia Haddad,Direct Sales,1,  172 ,€171.83
+ORD-10548,Sep 20 2025,Pixel Forge,Premium Plan,Subscription,Europe,,Website,5,1155.43,5777.15 EUR
+ORD-10057,2025/11/13,Quartz Legal,Team Plan,Subscription,Asia Pacific,Lucas Martin,Mobile App,1,694.78,694.78
+ORD-10002,Oct 04 2025,Futura Labs, Onboarding Pack  ,Services,Middle East,Tom Becker,Mobile App,5,439.21,2196.05
+ORD-10451,2025-09-14,Echo Media,Premium Plan,Subscription,N/A,Lucas Martin,Website,1,1225.47,1225.47
+ORD-10429,Feb 01 2025,Nova Fintech,Starter Plan,Subscription,ASIA PACIFIC,Tom Becker,Mobile App,-,278.09,1112.36 EUR
+ORD-10074,2025/11/11,Lumen Edu,Starter Plan,Subscription,europe,Amira Benali,Website,1,€306.84,306.84 EUR
+ORD-10405,May 23 2025,Mosaic Travel,onboarding pack,Services,EUROPE,Lucas Martin,mobile app,3,475.99,"€1,427.97"
+ORD-10245,Aug 12 2025,Quartz Legal,Premium Plan,Subscription,Europe,Sofia Rossi,website,1,1102.22 EUR,1102.22 EUR
+ORD-10130,2025-12-06,Lumen Edu,team plan,Subscription,Europe,Nadia Haddad,Mobile App,1,696.63,  697 
+ORD-10152,2025-10-24,Lumen Edu,Team Plan,Subscription,europe,Nadia Haddad,Direct Sales,5,€637.93,  3190 
+ORD-10512,2025/03/24,Helix Robotics,Custom Integration,Services,North America,-,Website,1,2455.91,"€2,455.91"
+ORD-10180,09-Jul-2025,Riverstone,Premium Plan,Subscription, Asia Pacific  ,Lucas Martin,Website,2,"€1,307.57",  2615 
+ORD-10320,12-Feb-2025,Orbit Games,Custom Integration,Services,North America,Nadia Haddad,Partner,10,2445.22,244522.00 EUR
+ORD-10533,2025-08-18,Kappa Energy,Starter Plan,Subscription,North America,Nadia Haddad,Mobile App,2,283.24,€566.48
+ORD-10583,08-Mar-2025,Kappa Energy,Starter Plan,Subscription,ASIA PACIFIC,Tom Becker,MOBILE APP,5,307.31 EUR,  1537 
+ORD-10281,2025-12-24,Helix Robotics,Team Plan,Subscription,Europe,Tom Becker,Partner,1,668.81 EUR,€668.81
+ORD-10284,Sep 29 2025,Orbit Games,starter plan,Subscription,Asia Pacific,Tom Becker,Mobile App,3,318.66 EUR,955.98
+ORD-10439,2025-11-04,Iris Studio,Premium Plan,Subscription,Europe,Lucas Martin,PARTNER,10,1196.71,11967.10
+ORD-10517,2025/09/01,Pixel Forge,PREMIUM PLAN,Subscription, North America  ,Nadia Haddad, Direct Sales  ,1,1218.16,1218.16
+ORD-10265,Dec 09 2025,Cedar Health,TEAM PLAN,Subscription,Europe,Kenji Sato,Mobile App,2,641.69,1283.38
+ORD-10196,2025/04/18,Brightwave,Onboarding Pack,Services,MIDDLE EAST,Lucas Martin,Website,2,475.75,€951.50
+ORD-10311,2025-10-15,Brightwave, Starter Plan  ,Subscription,Europe,Amira Benali,Direct Sales,4,303.79,"€1,215.16"
+ORD-10398,02-Mar-2025,Cedar Health,Starter Plan,Subscription,Europe,Tom Becker,DIRECT SALES,1,304.22,  304 
+ORD-10450,2025-04-09,Kappa Energy,Premium Plan,Subscription, Asia Pacific  ,Lucas Martin,Partner,2,1230.16,2460.32
+ORD-10108,2025-10-11,Cedar Health,Premium Plan,Subscription,Europe,Nadia Haddad,website,1,  1120 ,"€1,120.13"
+ORD-10053,Oct 02 2025,Riverstone,Starter Plan,Subscription,Europe,Amira Benali,Mobile App,1,305.23,305.23 EUR
+ORD-10461,2025-12-02,Iris Studio,Onboarding Pack,Services,Europe,Kenji Sato,Mobile App,1,407.57,€407.57
+ORD-10113,2025/10/24,Orbit Games,Starter Plan,Subscription,Europe,Sofia Rossi,Mobile App,2,  281 ,562.40
+ORD-10334,2025-05-31,Brightwave,Starter Plan,Subscription,North America,Sofia Rossi,Partner,1,  263 ,263.15
+ORD-10030,2025/04/03,Echo Media,Starter Plan,Subscription,null,Kenji Sato,Website,2,276.91,553.82
+ORD-10323,2025/09/29,Juniper Foods,Premium Plan,Subscription,Europe,Amira Benali,Website,4,"€1,152.09",4608.36 EUR
+ORD-10037,03-Aug-2025,Quartz Legal,starter plan,Subscription,ASIA PACIFIC,Kenji Sato,Mobile App,1,292.97,292.97 EUR
+ORD-10065,Feb 13 2025,Lumen Edu,Premium Plan,Subscription,North America,Kenji Sato,Direct Sales,,1102.01 EUR,4408.04 EUR
+ORD-10443,2025-11-06,null,Team Plan,Subscription,Europe,Tom Becker,Website,1,673.35 EUR,  673 
+ORD-10545,2025-11-16,Delta Retail,Custom Integration,Services,North America,Amira Benali,Website,1,2605.15,"€2,605.15"
+ORD-10206,2025-09-16,Orbit Games,Team Plan,Subscription,North America,Lucas Martin,Direct Sales,10,€622.00,"€6,220.00"
+ORD-10366,2025-07-07,Lumen Edu,Custom Integration,Services,Europe,Tom Becker,Website,,  2307 ,  11533 
+ORD-10013,2025-12-03,Iris Studio,Starter Plan,Subscription,Asia Pacific,Tom Becker,Mobile App,N/A,€277.34,277.34 EUR
+ORD-10403,Sep 25 2025,Kappa Energy,Team Plan,Subscription,NORTH AMERICA,Amira Benali,Direct Sales,2,€651.49,1302.98
+ORD-10007,2025/09/16,Lumen Edu,Analytics Add-on,Add-on,middle east,N/A,Mobile App,,187.67,  563 
+ORD-10494,Jan 24 2025,Quartz Legal,Analytics Add-on,Add-on,Middle East,N/A,Website,2,191.09,  382 
+ORD-10116,12-Mar-2025,Futura Labs,Starter Plan,Subscription,north america,Kenji Sato,Direct Sales,1,€289.23,289.23
+ORD-10550,2025-07-10,Orbit Games,Team Plan,Subscription,Europe,Tom Becker,Mobile App,1,  707 ,706.72
+ORD-10291,Apr 01 2025,Delta Retail,Analytics Add-on,Add-on,north america,Amira Benali,Mobile App,2,181.16 EUR,€362.32
+ORD-10112,2025-06-22,Helix Robotics,Onboarding Pack,Services,Middle East,Nadia Haddad,Partner,1,428.29,428.29
+ORD-10137,2025/11/25,Pixel Forge,Onboarding Pack,Services, Europe  ,Lucas Martin,Mobile App,1,€488.17,€488.17
+ORD-10063,2025-10-27,Futura Labs,TEAM PLAN,Subscription,North America,Kenji Sato,Mobile App,2,662.64,  1325 
+ORD-10399,09-Sep-2025,Nova Fintech,analytics add-on,Add-on,Europe,Nadia Haddad,Mobile App,-,183.34,€183.34
+ORD-10432,2025/06/19,Mosaic Travel, Custom Integration  ,Services,Middle East,Lucas Martin,direct sales,1,2492.36 EUR,2492.36
+ORD-10280,2025-09-21,Cedar Health, Onboarding Pack  ,Services,Middle East,Lucas Martin,Mobile App,5,  411 ,"€2,054.55"
+ORD-10521,2025/12/02,Echo Media,Onboarding Pack,Services,asia pacific,Tom Becker,website,1,  485 ,null
+ORD-10029,2025-08-27,Granite Bank,Starter Plan,Subscription,Middle East,Lucas Martin,Direct Sales,1,  287 ,287.32
+ORD-10438,2025-10-28,Cedar Health,Starter Plan,Subscription,Asia Pacific,Kenji Sato,Website,5,277.86,  1389 
+ORD-10070,2025/06/17,Cedar Health,Analytics Add-on,Add-on, North America  ,Amira Benali,Direct Sales,5,€180.69,903.45 EUR
+ORD-10219,2025/09/27,Quartz Legal,STARTER PLAN,Subscription,North America,Nadia Haddad,Mobile App,4,307.07,1228.28
+ORD-10507,Jan 30 2025,Riverstone,Starter Plan,Subscription,Europe,Sofia Rossi,Direct Sales,1,286.96,286.96 EUR
+ORD-10389,2025-06-27,Kappa Energy, Premium Plan  ,Subscription,Middle East,Amira Benali,Mobile App,4,"€1,083.99",4335.96 EUR
+ORD-10132,2025-06-11,Nova Fintech,Analytics Add-on,Add-on,Middle East,Amira Benali,MOBILE APP,3,181.68 EUR,545.04
+ORD-10539,2025-06-02,Futura Labs,Premium Plan,Subscription,Middle East,Sofia Rossi,Partner,1,  1156 ,"€1,155.68"
+ORD-10223,2025-11-11,Mosaic Travel,PREMIUM PLAN,Subscription,Asia Pacific,Kenji Sato,Mobile App,2,1297.84,-
+ORD-10556,May 25 2025,Delta Retail, Onboarding Pack  ,Services,Europe,Nadia Haddad,Direct Sales,1,424.35 EUR,  424 
+ORD-10350,27-Dec-2025,Mosaic Travel,Analytics Add-on,Add-on,Europe,Lucas Martin,Direct Sales,3,€183.82,5514.60
+ORD-10309,20-Oct-2025,Helix Robotics,Custom Integration,Services,Europe,Tom Becker,Mobile App,2,2563.91,5127.82
+ORD-10362,2025-10-14,Helix Robotics,Onboarding Pack,Services, Europe  ,Kenji Sato,Website,1,487.91,487.91
+ORD-10529,2025-07-15,Helix Robotics,Team Plan,Subscription,N/A,Sofia Rossi,Website,1,609.00,609.00
+ORD-10168,2025-10-12,Riverstone,Team Plan,Subscription,EUROPE,Nadia Haddad,Mobile App,2,671.28,1342.56
+ORD-10120,Dec 12 2025,Mosaic Travel,Analytics Add-on,Add-on,Asia Pacific,Kenji Sato,Website,5,€170.99,854.95 EUR
+ORD-10375,2025-04-09,N/A,Team Plan,Subscription,MIDDLE EAST,Tom Becker,WEBSITE,1,€631.35,€631.35
+ORD-10500,2025-07-28,Futura Labs,PREMIUM PLAN,Subscription,North America,Tom Becker,Direct Sales,2,"€1,302.73",2605.46
+ORD-10024,May 27 2025,,Starter Plan,Subscription,Europe,,Mobile App,1,316.17,316.17
+ORD-10220,2025/03/28,Delta Retail, Onboarding Pack  ,Services,Europe,Lucas Martin,Website,2,  437 ,  874 
+ORD-10236,2025-03-09,Iris Studio,Starter Plan,Subscription,North America,Tom Becker,website,2,302.33,604.66
+ORD-10259,Jun 02 2025,Helix Robotics,Premium Plan,Subscription, Europe  ,Sofia Rossi,Mobile App,1,1199.03,"€1,199.03"
+ORD-10478,Dec 16 2025,Futura Labs,Starter Plan,Subscription,North America,Amira Benali,mobile app,4,303.49,"€1,213.96"
+ORD-10523,18-Dec-2025,Cedar Health,starter plan,Subscription,North America,Nadia Haddad,WEBSITE,2,309.49,€618.98
+ORD-10495,2025-08-01,Pixel Forge,Team Plan,Subscription,North America,Nadia Haddad,Partner,3,695.19 EUR,"€2,085.57"
+ORD-10586,2025-08-28,Futura Labs,Analytics Add-on,Add-on,Europe,Kenji Sato,direct sales,1,184.28,€184.28
+ORD-10277,Nov 28 2025,Lumen Edu,Onboarding Pack,Services,EUROPE,Kenji Sato,Direct Sales,4,€483.68,  1935 
+ORD-10584,2025/11/16,Granite Bank,Premium Plan,Subscription,Europe,Kenji Sato,Mobile App,5,1195.99 EUR,5979.95
+ORD-10097,20-Jul-2025,Riverstone,Custom Integration,Services,Europe,Amira Benali,Mobile App,4,2599.08 EUR,10396.32
+ORD-10482,2025-01-31,Iris Studio,Team Plan,Subscription,EUROPE,Tom Becker,Partner,5,619.20,3096.00 EUR
+ORD-10385,2025-11-12,,Onboarding Pack,Services,Europe,Sofia Rossi, Website  ,3,467.91 EUR,14037.30
+ORD-10486,2025-07-22,Helix Robotics,Premium Plan,Subscription,Europe,Tom Becker,Website,2,"€1,198.78",2397.56
+ORD-10269,2025-09-12,Delta Retail,Team Plan,Subscription,europe,Lucas Martin,Website,1,693.67,€693.67
+ORD-10264,2025-06-20,Iris Studio,TEAM PLAN,Subscription,Europe,-,direct sales,1,  665 ,664.82
+ORD-10247,2025-05-24,Granite Bank,Starter Plan,Subscription,Europe,Sofia Rossi, Website  ,1,  262 ,
+ORD-10298,29-Jul-2025,Mosaic Travel,Team Plan,Subscription,Europe,Amira Benali,Website,1,€593.87,€593.87
+ORD-10389,2025-06-27,Kappa Energy, Premium Plan  ,Subscription,Middle East,Amira Benali,Mobile App,4,"€1,083.99",4335.96 EUR
+ORD-10501,06-May-2025,Iris Studio, Starter Plan  ,Subscription,Asia Pacific,Amira Benali,WEBSITE,5,€318.35,"€1,591.75"
+ORD-10159,2025-01-29,Kappa Energy, Custom Integration  ,Services,europe,Lucas Martin,WEBSITE,1,2433.31,"€2,433.31"
+ORD-10455,2025-10-07,Pixel Forge,Team Plan,Subscription,North America,Lucas Martin,Mobile App,1,,  691 
+ORD-10573,2025/03/23,Riverstone,Premium Plan,Subscription,North America,Kenji Sato,Direct Sales,5,  1134 ,5671.50
+ORD-10118,2025/12/29,Helix Robotics,Team Plan,Subscription,North America,Amira Benali,Mobile App,1,613.41,€613.41
+ORD-10270,Aug 27 2025,Atlas Logistics,starter plan,Subscription,MIDDLE EAST,Tom Becker,Website,1,310.15 EUR,310.15 EUR
+ORD-10104,2025-04-18,Riverstone,ANALYTICS ADD-ON,Add-on,North America,Lucas Martin,Direct Sales,1,195.27,195.27
+ORD-10295,Apr 12 2025,Juniper Foods,STARTER PLAN,Subscription,Europe,Sofia Rossi,Mobile App,1,267.40 EUR,€267.40
+ORD-10499,Oct 28 2025,Quartz Legal,Starter Plan,Subscription,North America,Tom Becker,Mobile App,3,302.98 EUR,908.94 EUR
+ORD-10304,2025/04/06,Futura Labs, Starter Plan  ,Subscription,North America,Kenji Sato,Partner,3,  271 ,  814 
+ORD-10552,2025-04-03,Futura Labs,Onboarding Pack,Services,North America,Sofia Rossi,Partner,1,€472.91,€472.91
+ORD-10555,Jun 12 2025,Atlas Logistics,Starter Plan,Subscription,North America,Lucas Martin,Mobile App,N/A,278.86,278.86
+ORD-10237,2025/08/05,Echo Media,analytics add-on,Add-on,Europe,Sofia Rossi,Partner,3,€194.84,584.52
+ORD-10531,2025/12/11,Nova Fintech,Team Plan,Subscription,Europe,Sofia Rossi,Website,1,641.60 EUR,€641.60
+ORD-10080,2025-10-24,Quartz Legal,Onboarding Pack,Services,Europe,Nadia Haddad,Partner,2,422.52 EUR,  845 
+ORD-10587,2025-10-24,Riverstone,Onboarding Pack,Services, Europe  ,Nadia Haddad,mobile app,5,493.76 EUR,2468.80
+ORD-10485,2025-04-22,Atlas Logistics,Premium Plan,Subscription,EUROPE,Kenji Sato,PARTNER,3,1273.86 EUR,3821.58
+ORD-10417,2025-08-24,Riverstone,Starter Plan,Subscription,North America,Nadia Haddad,Mobile App,1,302.80 EUR,302.80
+ORD-10255,2025-12-15,Atlas Logistics,Team Plan,Subscription, Europe  ,Kenji Sato,Direct Sales,4,635.01,2540.04
+ORD-10349,2025/10/07,Atlas Logistics,Starter Plan,Subscription,,Sofia Rossi,Mobile App,1,271.28 EUR,271.28 EUR
+ORD-10091,03-Nov-2025,Delta Retail,Team Plan,Subscription,North America,Lucas Martin,Mobile App,2,653.66 EUR,"€1,307.32"
+ORD-10115,2025/07/14,Lumen Edu,Starter Plan,Subscription, Asia Pacific  ,Sofia Rossi,Direct Sales,2,295.62,591.24
+ORD-10200,2025-01-15,Lumen Edu,PREMIUM PLAN,Subscription,Europe,Amira Benali,Direct Sales,10,"€1,242.46",12424.60
+ORD-10248,2025/02/24,Lumen Edu,Premium Plan,Subscription,Europe,Nadia Haddad,Website,2,"€1,222.26",2444.52 EUR
+ORD-10145,2025-02-23,Pixel Forge,Starter Plan,Subscription,Asia Pacific,Kenji Sato,website,1,315.63,315.63 EUR
+ORD-10203,2025-11-06,Delta Retail,Starter Plan,Subscription,Europe,Lucas Martin,Direct Sales,1,261.49,€261.49
+ORD-10388,2025-12-18,Mosaic Travel,Team Plan,Subscription,europe,Nadia Haddad,Website,1,627.93,627.93 EUR
+ORD-10437,2025-07-08,Echo Media,Analytics Add-on,Add-on,Middle East,Amira Benali,Mobile App,2,  175 ,€350.16
+ORD-10598,2025-08-19,Iris Studio,premium plan,Subscription,North America,Amira Benali,Mobile App,3,  1247 ,3740.40
+ORD-10568,2025/12/09,Granite Bank,Premium Plan,Subscription,North America,Tom Becker,partner,2,  1252 ,2503.84
+ORD-10092,2025-07-09,Atlas Logistics,Premium Plan,Subscription,Europe,Amira Benali,Partner,2,1214.11,  2428 
+ORD-10150,11-Aug-2025,Delta Retail,Starter Plan,Subscription,Europe,Sofia Rossi,Website,2,304.99,609.98
+ORD-10425,2025-12-11,Delta Retail,Premium Plan,Subscription, Europe  ,Sofia Rossi,Website,3,  1134 ,  3403 
+ORD-10022,2025-04-19,Nova Fintech,Team Plan,Subscription,-,null,Website,1,  656 ,€655.54
+ORD-10488,2025-05-16,Helix Robotics, Analytics Add-on  ,Add-on,Europe,null,Mobile App,1,162.68 EUR,162.68 EUR
+ORD-10190,2025/03/11,Delta Retail,Premium Plan,Subscription,Europe,Tom Becker, Direct Sales  ,1,1124.86 EUR,1124.86
+ORD-10599,2025-11-21,Brightwave,Premium Plan,Subscription,North America,Tom Becker,Mobile App,1,1227.68,  1228 
+ORD-10451,2025-09-14,Echo Media,Premium Plan,Subscription,N/A,Lucas Martin,Website,1,1225.47,1225.47
+ORD-10183,2025/03/13,Riverstone,TEAM PLAN,Subscription,Middle East,Nadia Haddad,Mobile App,3,  634 ,"€1,900.53"
+ORD-10344,2025-02-16,Mosaic Travel,starter plan,Subscription,Europe,Amira Benali, Website  ,2,279.87,€559.74
+ORD-10252,2025-02-16,Riverstone,Onboarding Pack,Services,Asia Pacific,Sofia Rossi,Mobile App,2,  405 ,810.04 EUR
+ORD-10110,2025-02-28,Granite Bank,Team Plan,Subscription,North America,Kenji Sato,direct sales,3,656.51,"€1,969.53"
+ORD-10207,Feb 11 2025,Lumen Edu,Starter Plan,Subscription,Europe,Amira Benali, Direct Sales  ,3,296.11 EUR,888.33
+ORD-10158,2025-12-08,Juniper Foods,team plan,Subscription,EUROPE,Nadia Haddad,WEBSITE,5,€639.66,3198.30
+ORD-10518,2025-07-07,Pixel Forge,Team Plan,Subscription,Europe,Nadia Haddad,Direct Sales,1,657.82 EUR,657.82 EUR
+ORD-10540,2025/02/20,Mosaic Travel,Premium Plan,Subscription, Middle East  ,Sofia Rossi,Direct Sales,1,  1118 ,1118.19 EUR
+ORD-10216,2025-01-12,Pixel Forge, Starter Plan  ,Subscription,North America,Sofia Rossi,Website,1,301.98,€301.98
+ORD-10126,,Lumen Edu,starter plan,Subscription,Europe,Sofia Rossi, Website  ,2,  265 ,N/A
+ORD-10496,28-Feb-2025,Pixel Forge,Starter Plan,Subscription,North America,Lucas Martin,Mobile App,1,281.42 EUR,€281.42
+ORD-10015,2025-09-21,Kappa Energy,Premium Plan,Subscription,Middle East,Lucas Martin,Mobile App,10,  1275 ,12745.90
+ORD-10335,2025/11/20,Orbit Games,Analytics Add-on,Add-on,North America,Lucas Martin,website,1,185.18,  185 
+ORD-10231,20-May-2025,Futura Labs,Onboarding Pack,Services,North America,Sofia Rossi,website,null,  493 ,"€4,928.20"
+ORD-10233,2025-11-26,Nova Fintech,Starter Plan,Subscription, Europe  ,Lucas Martin,Website,1,€305.34,€305.34
+ORD-10072,2025-12-20,Lumen Edu,Premium Plan,Subscription,Europe,Tom Becker,Direct Sales,1,1186.55,1186.55 EUR
+ORD-10527,2025/12/09,Nova Fintech,Premium Plan,Subscription,Europe,Nadia Haddad,Website,2,  1260 ,2520.98 EUR
+ORD-10286,10-May-2025,Orbit Games,Starter Plan,Subscription,Middle East,Kenji Sato,Mobile App,1,303.22,  303 
+ORD-10167,Sep 17 2025,Orbit Games,Custom Integration,Services,Asia Pacific,Tom Becker,Mobile App,5,2391.88,  11959 
+ORD-10261,2025-05-06,Granite Bank,Starter Plan,Subscription,Asia Pacific,Amira Benali,Website,,€287.74,575.48
+ORD-10135,May 03 2025,Kappa Energy,Premium Plan,Subscription,Europe,Amira Benali,Direct Sales,4,1247.25,"€4,989.00"
+ORD-10061,Jan 28 2025,Echo Media,Team Plan,Subscription,europe,Tom Becker,Website,2,  635 ,1270.50
+ORD-10188,2025-03-28,Pixel Forge,Analytics Add-on,Add-on, North America  ,Nadia Haddad,Mobile App,3,€179.41,  538 
+ORD-10504,2025/04/14,Cedar Health,Premium Plan,Subscription,,Kenji Sato, Direct Sales  ,1,"€1,199.21",1199.21
+ORD-10211,2025-04-26,Iris Studio,Onboarding Pack,Services,North America,Amira Benali,Mobile App,1,€412.13,€412.13
+ORD-10064,2025-12-09,Nova Fintech,Premium Plan,Subscription,North America,Sofia Rossi,Direct Sales,1,  1265 ,"€1,264.67"
+ORD-10452,2025-10-01,Iris Studio,starter plan,Subscription,Asia Pacific,Lucas Martin,Direct Sales,5,  314 ,1572.50 EUR
+ORD-10055,2025-02-12,Delta Retail,Starter Plan,Subscription,North America,Amira Benali,Direct Sales,1,273.50,273.50 EUR
+ORD-10073,2025/09/18,Cedar Health,Team Plan,Subscription,Middle East,Tom Becker,Website,1,  595 ,  595 
+ORD-10303,May 11 2025,Delta Retail,Premium Plan,Subscription,Middle East,Kenji Sato,Partner,1,1258.29,"€1,258.29"
+ORD-10254,2025-03-11,Atlas Logistics,TEAM PLAN,Subscription,Asia Pacific,Kenji Sato,partner,1,622.50 EUR,  622 
+ORD-10508,Jun 05 2025,Mosaic Travel, Onboarding Pack  ,Services,Europe,Sofia Rossi,Website,1,453.19,453.19 EUR
+ORD-10595,19-Nov-2025,Delta Retail, Custom Integration  ,Services, North America  ,Tom Becker, Direct Sales  ,1,2338.00,2338.00
+ORD-10414,29-Mar-2025,Echo Media,Analytics Add-on,Add-on,north america,Kenji Sato,Direct Sales,1,166.76,166.76
+ORD-10151,Oct 13 2025,Atlas Logistics,Premium Plan,Subscription,Asia Pacific,Tom Becker,Partner,1,1258.98,1258.98 EUR
+ORD-10214,2025-05-25,Brightwave, Team Plan  ,Subscription,europe,null,Mobile App,2,617.93,"€1,235.86"
+ORD-10489,31-Oct-2025,Brightwave,Premium Plan,Subscription,Europe,Sofia Rossi,Mobile App,2,"€1,287.78","€2,575.56"
+ORD-10365,2025-11-18,Granite Bank,Onboarding Pack,Services,Europe,Tom Becker,Mobile App,10,490.63 EUR,  4906 
+ORD-10276,2025-12-07,Delta Retail,Starter Plan,Subscription,-,Lucas Martin,Mobile App,3,290.24,870.72
+ORD-10301,2025-06-15,Cedar Health,STARTER PLAN,Subscription,Middle East,Amira Benali,PARTNER,1,€275.17,-
+ORD-10193,16-Aug-2025,Nova Fintech,Onboarding Pack,Services,EUROPE,Lucas Martin,Direct Sales,5,453.54,  22677 
+ORD-10082,2025/11/17,Atlas Logistics,Starter Plan,Subscription,North America,Nadia Haddad,Mobile App,2,307.21,€614.42
+ORD-10317,Dec 01 2025,Iris Studio,Custom Integration,Services, North America  ,Kenji Sato,mobile app,1,2580.93 EUR,2580.93
+ORD-10047,2025-03-17,Orbit Games, Starter Plan  ,Subscription,Europe,Sofia Rossi,Direct Sales,1,316.19,316.19
+ORD-10566,Mar 19 2025,Delta Retail,PREMIUM PLAN,Subscription, Middle East  ,Sofia Rossi,Mobile App,3,1274.48 EUR,  3823 
+ORD-10019,2025-10-26,Juniper Foods, Team Plan  ,Subscription,EUROPE,Kenji Sato,Mobile App,2,  597 ,1194.28 EUR
+ORD-10251,2025-11-09,Orbit Games,team plan,Subscription,Europe,Kenji Sato,mobile app,1,706.01 EUR,€706.01
+ORD-10407,19-Dec-2025,Nova Fintech,Premium Plan,Subscription,europe,Tom Becker,Mobile App,2,"€1,198.28",  2397 
+ORD-10257,2025-07-18,Brightwave,Starter Plan,Subscription,Europe,Sofia Rossi,Mobile App,1,316.71,316.71 EUR
+ORD-10179,15-Aug-2025,Helix Robotics,Analytics Add-on,Add-on,Asia Pacific,Amira Benali,Mobile App,1,  186 ,186.08
+ORD-10048,2025-07-13,Granite Bank,Team Plan,Subscription, North America  ,Lucas Martin,direct sales,1,687.28,687.28
+ORD-10258,May 11 2025,Atlas Logistics,Premium Plan,Subscription,North America,Tom Becker,Mobile App,1,1111.81 EUR,1111.81 EUR
+ORD-10322,2025-02-19,Nova Fintech,Starter Plan,Subscription,Europe,Amira Benali,Partner,1,€276.57,  277 
+ORD-10224,2025/01/29,Mosaic Travel,Team Plan,Subscription,Europe,Kenji Sato,Direct Sales,1,675.71,675.71
+ORD-10285,2025-09-27,Cedar Health,Team Plan,Subscription,Europe,Nadia Haddad,Mobile App,1,587.93,587.93
+ORD-10528,02-Aug-2025,Quartz Legal,Starter Plan,Subscription,North America,Sofia Rossi,MOBILE APP,1,262.66 EUR,262.66
+ORD-10050,2025-11-08,Delta Retail,Custom Integration,Services,NORTH AMERICA,Nadia Haddad,direct sales,10,"€2,189.20",21892.00
+ORD-10524,2025-12-18,Mosaic Travel, Starter Plan  ,Subscription,north america,Lucas Martin,Mobile App,5,  304 ,"€1,521.75"
+ORD-10045,2025-04-16,Iris Studio,Team Plan,Subscription,North America,Nadia Haddad,Partner,4,657.45 EUR,"€2,629.80"
+ORD-10391,Oct 03 2025,Helix Robotics,Premium Plan,Subscription,Europe,Tom Becker,Mobile App,1,1302.95,  1303 
+ORD-10428,2025-10-02,Nova Fintech,Starter Plan,Subscription,Europe,Amira Benali,DIRECT SALES,2,291.88,  584 
+ORD-10440,2025-07-20,Cedar Health,premium plan,Subscription,Asia Pacific,Kenji Sato,Mobile App,3,1144.76 EUR,  3434 
+ORD-10094,2025-12-27,Helix Robotics,Custom Integration,Services,North America,Tom Becker,MOBILE APP,2,"€2,505.17",  5010 
+ORD-10226,2025-05-24,Echo Media,Team Plan,Subscription, Europe  ,Lucas Martin,Website,10,665.11,  6651 
+ORD-10031,2025-07-27,Riverstone,Team Plan,Subscription,North America,Nadia Haddad,Website,4,€708.39,"€2,833.56"
+ORD-10541,18-Aug-2025,Futura Labs,STARTER PLAN,Subscription,Asia Pacific,Tom Becker,Direct Sales,2,308.92 EUR,€617.84
+ORD-10326,2025-05-17,Echo Media,Premium Plan,Subscription,Europe,Lucas Martin,Website,1,"€1,312.92",  1313 
+ORD-10275,2025-11-11,Granite Bank,Analytics Add-on,Add-on,Asia Pacific,Tom Becker,Direct Sales,2,170.27,  341 
+ORD-10367,2025-09-24,Granite Bank,Team Plan,Subscription,North America,Sofia Rossi,mobile app,10,611.55,"€6,115.50"
+ORD-10492,Sep 24 2025,Kappa Energy,Premium Plan,Subscription,NORTH AMERICA,Sofia Rossi,WEBSITE,1,1089.24 EUR,1089.24
+ORD-10513,22-Dec-2025,Nova Fintech,Starter Plan,Subscription,Europe,Tom Becker, Direct Sales  ,2,303.90,€607.80
+ORD-10310,2025/04/29,Nova Fintech,Premium Plan,Subscription,asia pacific,Kenji Sato,Website,1,1293.66 EUR,1293.66 EUR
+ORD-10373,2025/10/28,Riverstone,Premium Plan,Subscription,North America,Tom Becker,Website,1,1185.76 EUR,"€1,185.76"
+ORD-10374,,Granite Bank,PREMIUM PLAN,Subscription,Europe,Tom Becker, Mobile App  ,1,1083.85,"€1,083.85"
+ORD-10040,2025-08-17,Juniper Foods,Analytics Add-on,Add-on,North America,Tom Becker,mobile app,2,181.48,362.96
+ORD-10025,2025-09-02,Futura Labs,premium plan,Subscription,NORTH AMERICA,Tom Becker,Mobile App,1,1225.74,1225.74 EUR
+ORD-10107,2025-11-02,Riverstone,Premium Plan,Subscription,Europe,Sofia Rossi,Direct Sales,2,"€1,202.99",2405.98
+ORD-10119,2025-10-19,Iris Studio, Team Plan  ,Subscription,Europe,Nadia Haddad,Website,1,611.90 EUR,  612 
+ORD-10516,05-Feb-2025,Nova Fintech,Team Plan,Subscription,Asia Pacific,Sofia Rossi,Partner,1,€610.04,610.04
+ORD-10001,Oct 15 2025,Iris Studio,Starter Plan,Subscription,Europe,Kenji Sato,Mobile App,1,  266 ,266.38
+ORD-10274,2025/12/06,Iris Studio,premium plan,Subscription,Middle East,Lucas Martin,Direct Sales,1,1112.74 EUR,1112.74
+ORD-10458,2025-02-09,Echo Media,starter plan,Subscription,North America,Kenji Sato,Mobile App,1,270.88,€270.88
+ORD-10095,2025-02-05,Riverstone,Team Plan,Subscription,NORTH AMERICA,Sofia Rossi,Direct Sales,5,€616.82,3084.10 EUR
+ORD-10338,2025-11-07,Granite Bank,Starter Plan,Subscription,Europe,Nadia Haddad,Partner,1,€266.35,266.35 EUR
+ORD-10327,2025-07-09,-,Starter Plan,Subscription,Europe,Nadia Haddad,Partner,1,278.10,278.10 EUR
+ORD-10071,2025-01-23,Mosaic Travel,Custom Integration,Services,Europe,Lucas Martin,Mobile App,1,2630.41,"€2,630.41"
+ORD-10028,2025-04-30,Nova Fintech,Starter Plan,Subscription,North America,Kenji Sato,MOBILE APP,2,€290.96,581.92 EUR
+ORD-10062,2025-11-16,null, Team Plan  ,Subscription, Asia Pacific  ,Kenji Sato,Mobile App,3,653.43,"€1,960.29"
+ORD-10462,2025/06/30,Helix Robotics, Starter Plan  ,Subscription,null,Lucas Martin,direct sales,2,€289.63,579.26
+ORD-10582,2025/11/01,Riverstone,Analytics Add-on,Add-on,Europe,Amira Benali,Website,2,  195 ,389.44
+ORD-10235,2025-08-07,Nova Fintech,Team Plan,Subscription,Europe,Kenji Sato,Website,1,624.59,  625 
+ORD-10498,2025-02-08,Juniper Foods,Starter Plan,Subscription,North America,Nadia Haddad,Partner,1,  268 ,  268 
+ORD-10592,2025-07-13,Echo Media,Team Plan,Subscription, Asia Pacific  ,Sofia Rossi,Mobile App,5,671.93 EUR,3359.65 EUR
+ORD-10174,2025/10/11,Delta Retail,Analytics Add-on,Add-on,Europe,Tom Becker,Mobile App,10,168.40,1684.00 EUR
+ORD-10057,2025/11/13,Quartz Legal,Team Plan,Subscription,Asia Pacific,Lucas Martin,Mobile App,1,694.78,694.78
+ORD-10464,Dec 23 2025,Atlas Logistics,Team Plan,Subscription,Europe,Lucas Martin,WEBSITE,null,699.56 EUR,6995.60
+ORD-10296,2025/07/02,Delta Retail,Custom Integration,Services,Asia Pacific,Kenji Sato,Mobile App,5,  2336 ,11681.85
+ORD-10044,Jun 10 2025,Lumen Edu,Premium Plan,Subscription,Asia Pacific,Kenji Sato,Partner,1,1128.19 EUR,1128.19
+ORD-10121,2025/07/13,Lumen Edu,Starter Plan,Subscription,North America,Lucas Martin,Mobile App,4,€266.40,  1066 
+ORD-10078,2025-05-24,Delta Retail,Analytics Add-on,Add-on,europe,Kenji Sato,Partner,3,  181 ,  542 
+ORD-10449,2025-11-23,Atlas Logistics,Onboarding Pack,Services,asia pacific,Nadia Haddad,partner,1,409.66,409.66 EUR
+ORD-10191,20-Mar-2025,Atlas Logistics,Team Plan,Subscription,Europe,Lucas Martin,Direct Sales,1,618.57,€618.57
+ORD-10384,2025-10-19,Nova Fintech,Starter Plan,Subscription,North America,Kenji Sato,Mobile App,1,  314 ,313.78
+ORD-10038,03-Oct-2025,Granite Bank, Custom Integration  ,Services,Europe,-,Direct Sales,1,2526.18,2526.18 EUR
+ORD-10124,2025-10-25,Echo Media,Premium Plan,Subscription,Europe,Sofia Rossi,Mobile App,1,"€1,265.63",  1266 
+ORD-10054,2025-06-05,Quartz Legal,Premium Plan,Subscription,Europe,Tom Becker,Direct Sales,1,  1258 ,1257.83 EUR
+ORD-10065,Feb 13 2025,Lumen Edu,Premium Plan,Subscription,North America,Kenji Sato,Direct Sales,,1102.01 EUR,4408.04 EUR
+ORD-10011,2025-02-11,Brightwave,Premium Plan,Subscription,North America,Sofia Rossi,Direct Sales,1,1108.77,1108.77
+ORD-10416,2025-05-28,Mosaic Travel,onboarding pack,Services,Europe,Amira Benali,Mobile App,2,438.44,  877 
+ORD-10260,2025-12-19,Juniper Foods,Analytics Add-on,Add-on,Europe,Tom Becker,mobile app,1,171.45,€171.45
+ORD-10343,2025/04/08,Pixel Forge,CUSTOM INTEGRATION,Services,Asia Pacific,Nadia Haddad,Direct Sales,1,2416.10,2416.10
+ORD-10387,2025-02-21,Atlas Logistics,Premium Plan,Subscription,North America,Kenji Sato,Website,2,1317.03,  2634 
+ORD-10230,2025/12/20,Helix Robotics,Starter Plan,Subscription,Europe,Nadia Haddad,Partner,1,303.33,303.33 EUR
+ORD-10370,May 11 2025,Futura Labs, Analytics Add-on  ,Add-on,Europe,Kenji Sato, Mobile App  ,3,172.71,518.13
+ORD-10538,2025-09-10,Orbit Games,Team Plan,Subscription,Europe,Lucas Martin,Partner,5,  587 ,"€2,933.15"
+ORD-10525,06-Jun-2025,Mosaic Travel,Starter Plan,Subscription,North America,Tom Becker,Direct Sales,4,300.85 EUR,1203.40 EUR
+ORD-10354,2025-02-02,Juniper Foods,Premium Plan,Subscription,europe,Amira Benali,Mobile App,1,1110.61 EUR,"€1,110.61"
+ORD-10359,2025-12-26,Granite Bank,Premium Plan,Subscription,N/A,Kenji Sato,Website,1,1121.83,1121.83
+ORD-10505,2025-09-26,Mosaic Travel,Starter Plan,Subscription,North America,Sofia Rossi,Website,1,€274.45,  274 
+ORD-10133,Apr 22 2025,Quartz Legal,Starter Plan,Subscription,Europe,Nadia Haddad,mobile app,3,266.40,€799.20
+ORD-10177,2025-11-06,Mosaic Travel,Analytics Add-on,Add-on,Europe,-,Website,3,168.73,506.19
+ORD-10067,2025-02-26,Lumen Edu,Analytics Add-on,Add-on,North America,Sofia Rossi,Website,2,  171 ,341.42
+ORD-10175,2025-01-14,Brightwave,Premium Plan,Subscription,-,Amira Benali,Website,3,1118.62,3355.86
+ORD-10208,2025-02-19,Echo Media,Analytics Add-on,Add-on,North America,Tom Becker,Website,4,180.86 EUR,723.44 EUR
+ORD-10217,2025-08-21,Helix Robotics,STARTER PLAN,Subscription,North America,Lucas Martin,Direct Sales,3,€312.21,€936.63
+ORD-10557,08-May-2025,Delta Retail,Team Plan,Subscription,EUROPE,Tom Becker,website,2,620.89,1241.78
+ORD-10187,2025/05/01,Juniper Foods,Analytics Add-on,Add-on,north america,Amira Benali,Direct Sales,1,€176.13,€176.13
+ORD-10171,2025-08-24,Iris Studio, Starter Plan  ,Subscription,Europe,Kenji Sato, Mobile App  ,2,308.67 EUR,€617.34
+ORD-10192,2025/11/18,Helix Robotics,premium plan,Subscription,NORTH AMERICA,Nadia Haddad,Website,3,1162.24,"€3,486.72"
+ORD-10138,2025-12-04,Riverstone,Starter Plan,Subscription,Europe,Nadia Haddad,Partner,1,298.27,298.27
+ORD-10199,Sep 05 2025,Iris Studio,Starter Plan,Subscription,Europe,Kenji Sato,Website,1,  278 ,€278.07
+ORD-10198,2025-10-02,Atlas Logistics,ANALYTICS ADD-ON,Add-on,europe,Nadia Haddad,Website,1,186.11,186.11
+ORD-10497,2025-06-01,Futura Labs,PREMIUM PLAN,Subscription,europe,Nadia Haddad,Direct Sales,1,  1199 ,1198.61
+ORD-10421,2025/03/27,Mosaic Travel,Analytics Add-on,Add-on,North America,Lucas Martin, Mobile App  ,4,€190.10,760.40 EUR
+ORD-10102,2025-06-26,Futura Labs,premium plan,Subscription,north america,Nadia Haddad,Direct Sales,1,1200.53,"€1,200.53"
+ORD-10406,2025-11-07,Nova Fintech,Team Plan,Subscription,Europe,Tom Becker,Direct Sales,1,631.02,631.02
+ORD-10154,2025-06-17,Nova Fintech,Premium Plan,Subscription,North America,Kenji Sato,Mobile App,5,1235.37,6176.85 EUR
+ORD-10009,2025-02-25,Riverstone,Premium Plan,Subscription,,Lucas Martin,Website,1,"€1,191.03",1191.03
+ORD-10569,Oct 03 2025,Echo Media,Starter Plan,Subscription,middle east,Amira Benali,Mobile App,2,294.48 EUR,588.96
+ORD-10005,10-Oct-2025,Iris Studio,Team Plan,Subscription,Europe,Tom Becker,Direct Sales,1,641.52,€641.52
+ORD-10382,2025-06-24,Brightwave,starter plan,Subscription,Europe,Kenji Sato,Mobile App,1,278.85,€278.85
+ORD-10484,2025-01-15,Mosaic Travel,Onboarding Pack,Services,Europe,Lucas Martin,direct sales,1,  467 ,466.52
+ORD-10016,Jul 15 2025,Iris Studio,Starter Plan,Subscription,Asia Pacific,Sofia Rossi,website,1,272.20,272.20
+ORD-10423,2025-12-10,Atlas Logistics,ANALYTICS ADD-ON,Add-on,Europe,Lucas Martin,direct sales,3,,  573 
+ORD-10170,Dec 05 2025,Kappa Energy,Team Plan,Subscription,North America,Tom Becker,direct sales,1,692.29,€692.29
+ORD-10041,2025/06/07,Mosaic Travel,Starter Plan,Subscription,Europe,Kenji Sato,Partner,3,  271 ,814.32
+ORD-10337,2025/03/05,Riverstone, Starter Plan  ,Subscription,North America,Tom Becker,partner,10,307.71 EUR,"€3,077.10"
+ORD-10234,2025/06/24,Quartz Legal,Premium Plan,Subscription,NORTH AMERICA,Kenji Sato,PARTNER,1,"€1,226.76",1226.76 EUR
+ORD-10336,Aug 21 2025,Riverstone,Premium Plan,Subscription,North America,Nadia Haddad,PARTNER,1,"€1,232.56",1232.56
+ORD-10503,02-Aug-2025,Nova Fintech,Starter Plan,Subscription,North America,Nadia Haddad,Direct Sales,4,N/A,"€1,207.96"
+ORD-10435,2025/11/14,Kappa Energy,team plan,Subscription,North America,-, Website  ,10,€652.12,"€6,521.20"
+ORD-10172,2025/03/04,Riverstone,Analytics Add-on,Add-on,North America,Lucas Martin, Direct Sales  ,2,196.70,"€3,934.00"
+ORD-10221,2025/06/27,Iris Studio,Team Plan,Subscription,,Sofia Rossi,Partner,1,655.93,655.93
+ORD-10394,2025/11/22,Kappa Energy,Starter Plan,Subscription,europe,Tom Becker,Direct Sales,1,299.59,299.59
+ORD-10134,2025-04-21,Cedar Health,starter plan,Subscription,Europe,Amira Benali,Mobile App,3,€303.65,910.95
+ORD-10575,2025-12-19,Iris Studio,PREMIUM PLAN,Subscription,europe,Amira Benali,Mobile App,2,"€1,241.36","€2,482.72"
+ORD-10594,18-May-2025,Juniper Foods,Analytics Add-on,Add-on,North America,Sofia Rossi,Mobile App,3,180.99,  543 
+ORD-10332,2025-03-23,Delta Retail,Premium Plan,Subscription,Europe,Lucas Martin,Partner,3,1249.96,3749.88
+ORD-10026,2025-10-15,Lumen Edu,Starter Plan,Subscription,NORTH AMERICA,Kenji Sato,Mobile App,4,293.82 EUR,"€1,175.28"
+ORD-10085,2025-08-31,Lumen Edu,Analytics Add-on,Add-on,North America,Tom Becker,Website,2,181.55 EUR,363.10 EUR
+ORD-10163,2025/03/17,Echo Media,Team Plan,Subscription,North America,Sofia Rossi,website,3,671.12,"€2,013.36"
+ORD-10250,Sep 15 2025,Riverstone,Premium Plan,Subscription, Europe  ,Lucas Martin,Mobile App,4,1158.21 EUR,4632.84 EUR
+ORD-10510,Aug 21 2025,Nova Fintech,ANALYTICS ADD-ON,Add-on,Europe,Sofia Rossi,Direct Sales,1,€191.93,€191.93
+ORD-10266,2025-09-29,Riverstone,Starter Plan,Subscription, Asia Pacific  ,Amira Benali,Partner,4,€305.11,1220.44
+ORD-10449,2025-11-23,Atlas Logistics,Onboarding Pack,Services,asia pacific,Nadia Haddad,partner,1,409.66,409.66 EUR
+ORD-10262,2025/04/27,Delta Retail,premium plan,Subscription,North America,Tom Becker,Website,2,1294.55,2589.10
+ORD-10098,Sep 15 2025,Kappa Energy,Custom Integration,Services, Europe  ,Tom Becker,Mobile App,3,2428.25,7284.75
+ORD-10129,2025-10-22,Nova Fintech,PREMIUM PLAN,Subscription,Europe,Amira Benali,Mobile App,1,  1293 ,1292.74
+ORD-10186,2025-06-07,Riverstone,Starter Plan,Subscription,North America,Amira Benali,Website,2,€309.82,619.64
+ORD-10086,2025-09-01,Helix Robotics,Starter Plan,Subscription,Europe,N/A,Mobile App,1,  264 ,263.94
+ORD-10551,2025-09-09,Delta Retail,Team Plan,Subscription,europe,Nadia Haddad,Direct Sales,4,  626 ,  2506 
+ORD-10302,2025/09/10,Kappa Energy,Analytics Add-on,Add-on,Europe,Sofia Rossi,Partner,2,191.10 EUR,382.20 EUR
+ORD-10318,2025-04-18,Lumen Edu,Premium Plan,Subscription,Europe,Tom Becker,direct sales,1,  1319 ,1318.85
+ORD-10008,Apr 22 2025,Nova Fintech,team plan,Subscription,Europe,Kenji Sato,WEBSITE,5,€659.24,3296.20 EUR
+ORD-10253,29-Dec-2025,null,team plan,Subscription,-,Tom Becker,Direct Sales,4,€695.83,2783.32
+ORD-10308,2025-06-19,Iris Studio,ONBOARDING PACK,Services,Europe,Amira Benali,Partner,1,  421 ,  421 
+ORD-10181,2025-09-29,Iris Studio,Analytics Add-on,Add-on, North America  ,Kenji Sato,Website,2,173.94,347.88
+ORD-10042,2025-02-08,Mosaic Travel,analytics add-on,Add-on,Middle East,Sofia Rossi,Website,10,186.85 EUR,"€1,868.50"
+ORD-10364,2025/04/17,Iris Studio,Premium Plan,Subscription,europe,Tom Becker,Direct Sales,null,1242.03,  1242 
+ORD-10149,2025/12/25,Iris Studio,Onboarding Pack,Services,Europe,Nadia Haddad,Direct Sales,10,€444.19,4441.90 EUR
+ORD-10565,2025-09-30,Helix Robotics,ONBOARDING PACK,Services,Asia Pacific,Kenji Sato,WEBSITE,10,  471 ,4706.70
+ORD-10324,Jun 06 2025,Brightwave,Team Plan,Subscription,North America,Kenji Sato,Website,3,645.17,1935.51 EUR
+ORD-10100,2025/09/07,Kappa Energy,Starter Plan,Subscription,Europe,Kenji Sato,Partner,1,309.34,309.34
+ORD-10342,2025/10/26,Delta Retail,team plan,Subscription,Asia Pacific,Amira Benali,Mobile App,2,N/A,  1377 
+ORD-10056,2025/05/12,Lumen Edu,Premium Plan,Subscription,,Sofia Rossi,Partner,1,"€1,207.82",1207.82
+ORD-10076,2025-05-10,Futura Labs,Premium Plan,Subscription, Europe  ,Nadia Haddad,Mobile App,1,  1230 ,  1230 
+ORD-10201,2025-09-05,Iris Studio, Premium Plan  ,Subscription,North America,Lucas Martin,mobile app,1,  1257 ,1256.91
+ORD-10590,2025-02-01,Lumen Edu,Starter Plan,Subscription, Europe  ,Lucas Martin,Mobile App,2,261.27 EUR,522.54
+ORD-10153,2025-01-31,Delta Retail,Premium Plan,Subscription,Europe,Kenji Sato,Partner,1,  1168 ,1168.40 EUR
+ORD-10447,03-Apr-2025,Futura Labs,Team Plan,Subscription,asia pacific,Tom Becker,Mobile App,2,601.75 EUR,"€1,203.50"
+ORD-10409,2025-03-24,Pixel Forge, Analytics Add-on  ,Add-on,Europe,Lucas Martin,Direct Sales,4,€192.63,  771 
+ORD-10090,20-Mar-2025,Lumen Edu, Team Plan  ,Subscription,middle east,Tom Becker,Mobile App,3,  675 ,2024.22 EUR
+ORD-10035,May 29 2025,Riverstone,team plan,Subscription,Asia Pacific,Kenji Sato,Partner,-,€622.47,1867.41
+ORD-10189,2025/10/17,Lumen Edu,Team Plan,Subscription,ASIA PACIFIC,Lucas Martin,Mobile App,1,€655.77,€655.77
+ORD-10466,2025/01/12,Nova Fintech,Analytics Add-on,Add-on, Asia Pacific  ,Tom Becker,Direct Sales,1,€179.92,  180 
+ORD-10522,2025-12-07,Brightwave,Premium Plan,Subscription,Middle East,Amira Benali,MOBILE APP,1,1083.40 EUR,"€1,083.40"
+ORD-10176,2025/11/12,Riverstone,Team Plan,Subscription, North America  ,Kenji Sato,Website,1,€639.15,€639.15
+ORD-10506,2025/06/03,Atlas Logistics,Starter Plan,Subscription,Europe,Amira Benali,Mobile App,4,€311.11,"€1,244.44"
+ORD-10343,2025/04/08,Pixel Forge,CUSTOM INTEGRATION,Services,Asia Pacific,Nadia Haddad,Direct Sales,1,2416.10,2416.10
+ORD-10536,2025/10/29,Juniper Foods,Onboarding Pack,Services,North America,Amira Benali,Website,5,€491.86,2459.30 EUR
+ORD-10468,2025-03-15,Brightwave,Analytics Add-on,Add-on,north america,Amira Benali,Direct Sales,null,172.38,172.38 EUR
+ORD-10571,Dec 01 2025,Nova Fintech,Onboarding Pack,Services,europe,Kenji Sato,website,5,473.69,"€2,368.45"
+ORD-10093,May 11 2025,Orbit Games,Premium Plan,Subscription,Europe,Tom Becker,direct sales,3,1311.31,3933.93
+ORD-10292,2025-06-01,Echo Media,Onboarding Pack,Services,Europe,Amira Benali,Mobile App,1,482.11,482.11 EUR
+ORD-10299,2025-08-22,Orbit Games,Onboarding Pack,Services,null,Tom Becker,Website,3,494.16,"€1,482.48"
+ORD-10225,2025/02/14,Granite Bank,Starter Plan,Subscription,Asia Pacific,Sofia Rossi,Website,1,293.44,€293.44
+ORD-10472,06-Oct-2025,Delta Retail,starter plan,Subscription,North America,Sofia Rossi,direct sales,4,€265.91,1063.64 EUR
+ORD-10352,2025-08-09,N/A,Starter Plan,Subscription,North America,Tom Becker,Website,3,  264 ,791.16
+ORD-10300,2025/08/28,Mosaic Travel,Team Plan,Subscription,Europe,Amira Benali,direct sales,1,592.25 EUR,592.25 EUR
+ORD-10574,2025-01-01,Nova Fintech,Starter Plan,Subscription, North America  ,Lucas Martin,website,5,€296.56,1482.80
+ORD-10392,2025/11/04,Riverstone,Team Plan,Subscription, North America  ,Sofia Rossi,partner,3,  681 ,2042.04
+ORD-10087,24-May-2025,Futura Labs,Team Plan,Subscription,-,Kenji Sato,Website,2,654.57,1309.14
+ORD-10244,2025-11-11,Mosaic Travel,premium plan,Subscription,Europe,Sofia Rossi,Mobile App,1,  1170 ,1170.06 EUR
+ORD-10194,2025-09-06,Iris Studio,Starter Plan,Subscription,Europe,Amira Benali,Mobile App,5,265.86 EUR,1329.30
+ORD-10242,2025-01-25,Juniper Foods,Starter Plan,Subscription,ASIA PACIFIC,Sofia Rossi,Website,2,301.02 EUR,602.04 EUR
+ORD-10534,2025-12-05,Lumen Edu,Team Plan,Subscription,,Sofia Rossi,Partner,1,691.49,691.49
+ORD-10069,2025-05-14,Iris Studio,Premium Plan,Subscription,Europe,Amira Benali,Website,5,1203.69,6018.45 EUR
+ORD-10588,2025/10/19,Helix Robotics,Starter Plan,Subscription,Europe,Amira Benali,Mobile App,2,291.73,€583.46
+ORD-10386,11-Jul-2025,Nova Fintech,Onboarding Pack,Services,europe,Amira Benali,Website,1,473.32,€473.32
+ORD-10469,22-Dec-2025,Juniper Foods,Team Plan,Subscription,Middle East,Tom Becker,Mobile App,1,  680 ,€680.30
+ORD-10227,2025-11-18,Granite Bank,Premium Plan,Subscription,North America,Lucas Martin,Website,2,  1085 ,2170.92
+ORD-10589,2025/06/18,Iris Studio, Starter Plan  ,Subscription,North America,Tom Becker,Website,1,€266.56,€266.56
+ORD-10339,2025-10-25,Quartz Legal, Starter Plan  ,Subscription,Europe,Nadia Haddad,Direct Sales,2,€287.55,€575.10
+ORD-10071,2025-01-23,Mosaic Travel,Custom Integration,Services,Europe,Lucas Martin,Mobile App,1,2630.41,"€2,630.41"
+ORD-10127,2025/01/22,Cedar Health,Premium Plan,Subscription,asia pacific,Amira Benali, Direct Sales  ,2,"€1,200.25","€2,400.50"
+ORD-10578,Jul 28 2025,Mosaic Travel,Team Plan,Subscription,North America,Amira Benali,Website,4,€677.11,2708.44 EUR
+ORD-10143,2025-05-23,Lumen Edu, Onboarding Pack  ,Services,North America,Tom Becker,Direct Sales,1,449.66,449.66 EUR
+ORD-10358,Sep 27 2025,Mosaic Travel, Team Plan  ,Subscription,Europe,Amira Benali,Website,2,€684.89,  1370 
+ORD-10240,2025-11-18,Nova Fintech,Onboarding Pack,Services,Asia Pacific,Tom Becker,Website,2,415.98 EUR,831.96 EUR
+ORD-10473,2025/09/01,Atlas Logistics,Analytics Add-on,Add-on, Europe  ,Lucas Martin,mobile app,2,167.57,335.14 EUR
+ORD-10282,2025-03-08,Lumen Edu,Onboarding Pack,Services,Europe,Nadia Haddad,Website,2,492.37 EUR,984.74
+ORD-10434,2025-06-19,Echo Media,Starter Plan,Subscription,Europe,Amira Benali,direct sales,1,  313 ,313.00 EUR
+ORD-10433,2025-02-24,Cedar Health,Premium Plan,Subscription,Europe,,Mobile App,null,1128.41 EUR,"€1,128.41"
+ORD-10209,2025/05/26,Futura Labs,Starter Plan,Subscription,Middle East,Kenji Sato,Direct Sales,1,286.80,286.80 EUR
+ORD-10316,Nov 15 2025,Brightwave,Premium Plan,Subscription,Europe,Kenji Sato,Partner,10,1241.10,12411.00
+ORD-10272,2025-11-05,Futura Labs,Team Plan,Subscription,EUROPE,Lucas Martin,Website,4,674.08 EUR,2696.32 EUR
+ORD-10060,01-Apr-2025,Cedar Health, Team Plan  ,Subscription,North America,Kenji Sato,Mobile App,2,  690 ,1380.86 EUR
+ORD-10212,2025/01/11,Helix Robotics,PREMIUM PLAN,Subscription, North America  ,Kenji Sato,Website,1,1144.61,  1145 
+ORD-10083,2025-03-14,Granite Bank,Team Plan,Subscription,Europe,Tom Becker,Mobile App,1,€587.46,€587.46
+ORD-10511,May 10 2025,Delta Retail,Onboarding Pack,Services,NORTH AMERICA,Kenji Sato,Partner,10,470.48,  4705 
+ORD-10081,2025-04-05,Quartz Legal,Starter Plan,Subscription,North America,Nadia Haddad,Website,1,280.32 EUR,280.32 EUR
+ORD-10287,2025/02/04,Echo Media,Analytics Add-on,Add-on,North America,Sofia Rossi,Website,1,€194.92,194.92
+ORD-10493,2025/02/25,Cedar Health,Starter Plan,Subscription,europe,Sofia Rossi,Website,1,€294.08,€294.08
+ORD-10051,2025/05/14,Granite Bank,Starter Plan,Subscription,Europe,Kenji Sato,mobile app,1,298.97 EUR,298.97
+ORD-10155,2025/12/24,Mosaic Travel,TEAM PLAN,Subscription,Europe,Sofia Rossi,Partner,1,617.76 EUR,617.76
+ORD-10148,2025-11-23,Cedar Health,Onboarding Pack,Services,EUROPE,Nadia Haddad,Direct Sales,5,447.73,2238.65
+ORD-10089,2025-09-27,-, Starter Plan  ,Subscription,Europe,Sofia Rossi,Partner,1,266.53,266.53 EUR
+ORD-10360,Mar 25 2025,Echo Media, Team Plan  ,Subscription,Asia Pacific,Nadia Haddad,Direct Sales,1,677.42 EUR,  677 
+ORD-10230,2025/12/20,Helix Robotics,Starter Plan,Subscription,Europe,Nadia Haddad,Partner,1,303.33,303.33 EUR
+ORD-10581,Nov 24 2025,Delta Retail,custom integration,Services,Europe,Tom Becker,Direct Sales,3,2561.39 EUR,7684.17 EUR
+ORD-10228,2025/04/06,Lumen Edu,TEAM PLAN,Subscription,Europe,Lucas Martin,Partner,5,  594 ,"€2,968.30"
+ORD-10424,2025-10-26,Kappa Energy,Starter Plan,Subscription,North America,Nadia Haddad,Website,2,293.65,587.30 EUR
+ORD-10298,29-Jul-2025,Mosaic Travel,Team Plan,Subscription,Europe,Amira Benali,Website,1,€593.87,€593.87
+ORD-10480,06-Dec-2025,Quartz Legal,Starter Plan,Subscription,Europe,Sofia Rossi,Direct Sales,1,271.75 EUR,€271.75
+ORD-10319,2025-05-06,Cedar Health,Analytics Add-on,Add-on,north america,Sofia Rossi,Direct Sales,10,€180.94,1809.40 EUR
+ORD-10185,2025/02/06,Kappa Energy, Premium Plan  ,Subscription,North America,Tom Becker,Website,3,1246.43,  3739 
+ORD-10467,2025-03-26,Quartz Legal,Analytics Add-on,Add-on,europe,Nadia Haddad,Website,2,  196 ,392.06 EUR
+ORD-10430,Nov 22 2025,Echo Media,Custom Integration,Services,europe,Sofia Rossi,Partner,1,,2196.99
+ORD-10157,2025-09-08,Lumen Edu,Analytics Add-on,Add-on,Asia Pacific,Lucas Martin,Partner,3,186.71 EUR,  560 
+ORD-10109,28-May-2025,Granite Bank, Starter Plan  ,Subscription,Asia Pacific,Tom Becker,Mobile App,10,268.90,2689.00 EUR
+ORD-10491,May 02 2025,Granite Bank,Premium Plan,Subscription,NORTH AMERICA,Nadia Haddad,PARTNER,2,1311.81 EUR,  2624 
+ORD-10380,Apr 05 2025,Pixel Forge,Starter Plan,Subscription,North America,Kenji Sato,Website,2,317.13,€634.26
+ORD-10103,2025-10-15,Mosaic Travel,STARTER PLAN,Subscription,ASIA PACIFIC,Kenji Sato,Website,10,  299 ,  2987 
+ORD-10182,2025/02/03,Cedar Health,Onboarding Pack,Services,Europe,Amira Benali,Mobile App,1,450.26,€450.26
+ORD-10515,2025-04-10,Kappa Energy,starter plan,Subscription,NORTH AMERICA,Sofia Rossi, Mobile App  ,5,€270.53,"€1,352.65"
+ORD-10046,2025-05-27,Brightwave,Team Plan,Subscription,North America,Nadia Haddad,Direct Sales,2,676.14 EUR,"€1,352.28"
+ORD-10436,2025-02-20,Orbit Games,Premium Plan,Subscription, Asia Pacific  ,Sofia Rossi,WEBSITE,5,"€1,271.37",  6357 
+ORD-10169,2025-01-27,Pixel Forge,starter plan,Subscription,North America,Amira Benali,PARTNER,1,287.63 EUR,  288 
+ORD-10027,2025-12-23,Helix Robotics,starter plan,Subscription,Asia Pacific,Kenji Sato,Direct Sales,2,€286.26,€572.52
+ORD-10445,2025-10-31,Helix Robotics,Analytics Add-on,Add-on,europe,Amira Benali,Direct Sales,2,  163 ,326.34 EUR
+ORD-10441,2025/10/31,Lumen Edu,Premium Plan,Subscription,Europe,Nadia Haddad,Partner,2,1245.32,2490.64 EUR
+ORD-10004,Oct 29 2025,Delta Retail,starter plan,Subscription,North America,Kenji Sato,Partner,10,  269 ,2690.20
+ORD-10010,2025/05/03,Echo Media, Onboarding Pack  ,Services,EUROPE,Amira Benali,PARTNER,10,€494.59,4945.90
+ORD-10559,2025-10-30,Quartz Legal,Premium Plan,Subscription,Europe,Sofia Rossi,Partner,1,"€1,196.73","€1,196.73"
+ORD-10033,2025-11-14,Juniper Foods,Premium Plan,Subscription,Europe,Kenji Sato,Website,1,"€1,143.75",1143.75
+ORD-10526,2025-02-16,Echo Media,Onboarding Pack,Services,Europe,Amira Benali,partner,1,  415 ,€415.38
+ORD-10049,2025-04-27,Futura Labs,premium plan,Subscription,North America,Amira Benali,Website,1,1269.60,  1270 
+ORD-10346,2025-12-28,Juniper Foods, Onboarding Pack  ,Services,NORTH AMERICA,Sofia Rossi,Direct Sales,5,445.66,"€22,283.00"
+ORD-10018,2025/10/15,Mosaic Travel,TEAM PLAN,Subscription,Europe,Nadia Haddad,Mobile App,1,682.26 EUR,682.26 EUR
+ORD-10448,2025-08-27,Riverstone,ANALYTICS ADD-ON,Add-on,Europe,Lucas Martin,Website,1,184.64,184.64
+ORD-10321,2025-09-14,Mosaic Travel,Premium Plan,Subscription,Europe,Amira Benali,Website,4,  1176 ,"€4,702.96"
+ORD-10564,2025-06-07,-,Analytics Add-on,Add-on,Europe,Sofia Rossi,Website,1,  180 ,180.25
+ORD-10271,2025-09-27,Cedar Health,Team Plan,Subscription,N/A,Lucas Martin,Mobile App,2,589.89,"€1,179.78"
+ORD-10313,2025-12-13,Mosaic Travel,Team Plan,Subscription,north america,Lucas Martin,mobile app,10,€610.77,"€6,107.70"
+ORD-10483,17-Sep-2025,Riverstone,custom integration,Services,Asia Pacific,Kenji Sato,Partner,1,2359.80,
+ORD-10477,2025-02-05,Quartz Legal,Custom Integration,Services,North America,Nadia Haddad,Mobile App,2,  2247 ,4493.16
+ORD-10312,2025/11/21,Iris Studio,Onboarding Pack,Services,Asia Pacific,Amira Benali, Mobile App  ,4,  434 ,1735.00
+ORD-10161,2025/06/16,Kappa Energy,Team Plan,Subscription,europe,Kenji Sato, Mobile App  ,1,  623 ,622.81
+ORD-10249,Feb 20 2025,Iris Studio,Starter Plan,Subscription,North America,Sofia Rossi,MOBILE APP,2,315.95,631.90
+ORD-10476,2025-07-18,Quartz Legal,ONBOARDING PACK,Services,Europe,Tom Becker,Mobile App,1,482.03,482.03 EUR
+ORD-10205,2025-10-22,Iris Studio,Onboarding Pack,Services,Europe,Sofia Rossi,Direct Sales,2,440.86,881.72
+ORD-10025,2025-09-02,Futura Labs,premium plan,Subscription,NORTH AMERICA,Tom Becker,Mobile App,1,1225.74,1225.74 EUR
+ORD-10378,Dec 29 2025,Nova Fintech,Starter Plan,Subscription,ASIA PACIFIC,Sofia Rossi, Website  ,1,  307 ,306.64 EUR
+ORD-10444,2025/12/14,Nova Fintech,Starter Plan,Subscription,Europe,Amira Benali,Direct Sales,1,€286.28,€286.28
+ORD-10125,2025-02-21,Cedar Health,Onboarding Pack,Services,North America,null, Partner  ,10,433.31,"€4,333.10"
+ORD-10400,,Orbit Games,onboarding pack,Services,europe,Lucas Martin,Mobile App,1,482.58,482.58
+ORD-10162,Mar 07 2025,Iris Studio,Onboarding Pack,Services,North America,Amira Benali,WEBSITE,1,€463.55,€463.55
+ORD-10537,2025-10-07,Echo Media,Team Plan,Subscription,Asia Pacific,Amira Benali,MOBILE APP,1,637.93,637.93 EUR
+ORD-10077,2025/05/02,Juniper Foods,Premium Plan,Subscription,North America,Amira Benali,direct sales,1,"€1,293.36",1293.36
+ORD-10101,,Echo Media, Analytics Add-on  ,Add-on,-,Sofia Rossi,Mobile App,1,  191 ,191.45
+ORD-10410,2025/11/25,Mosaic Travel,premium plan,Subscription,Europe,Nadia Haddad,Direct Sales,1,1105.72,1105.72
+ORD-10400,,Orbit Games,onboarding pack,Services,europe,Lucas Martin,Mobile App,1,482.58,482.58
+ORD-10294,04-Sep-2025,,Premium Plan,Subscription,North America,Kenji Sato,Website,1,  1126 ,1125.97
+ORD-10205,2025-10-22,Iris Studio,Onboarding Pack,Services,Europe,Sofia Rossi,Direct Sales,2,440.86,881.72
+ORD-10328,2025-12-09,Nova Fintech,custom integration,Services,Europe,Kenji Sato,WEBSITE,1,2436.67,2436.67
+ORD-10079,2025-04-01,Orbit Games, Premium Plan  ,Subscription,Middle East,Kenji Sato,Partner,5,,"€5,996.85"
+ORD-10514,2025/08/12,Iris Studio,Premium Plan,Subscription,Asia Pacific,Lucas Martin,Partner,1,  1108 ,"€1,108.22"
+ORD-10288,2025/12/21,Helix Robotics,Custom Integration,Services,Europe,Nadia Haddad,Mobile App,5,  2360 ,"€11,801.20"
+ORD-10348,,Atlas Logistics,Analytics Add-on,Add-on,Europe,Kenji Sato,Mobile App,1,195.20,195.20 EUR
+ORD-10381,2025-07-02,Juniper Foods,Premium Plan,Subscription,Asia Pacific,Lucas Martin, Website  ,2,1212.68,2425.36 EUR
+ORD-10139,2025-01-16,Futura Labs,Onboarding Pack,Services,Europe,Tom Becker,Mobile App,2,437.17 EUR,874.34
+ORD-10088,2025-12-15,Iris Studio,starter plan,Subscription, Europe  ,Sofia Rossi,MOBILE APP,2,312.58,625.16
+ORD-10341,2025-12-08,Orbit Games,onboarding pack,Services,Europe,Nadia Haddad,Mobile App,2,473.58,  947 
+ORD-10290,2025/10/31,Delta Retail,Team Plan,Subscription,asia pacific,Sofia Rossi,Mobile App,3,  624 ,1872.42
+ORD-10197,2025-12-15,Pixel Forge, Starter Plan  ,Subscription,North America,Sofia Rossi,Website,10,264.33 EUR,2643.30 EUR
+ORD-10105,2025/11/22,Quartz Legal,Starter Plan,Subscription,asia pacific,Amira Benali,Partner,3,269.12,807.36
+ORD-10355,Jan 06 2025,Orbit Games,Starter Plan,Subscription,,Nadia Haddad, Mobile App  ,2,€280.70,€561.40
+ORD-10012,2025-10-31,Lumen Edu,Premium Plan,Subscription,Europe,Nadia Haddad,Mobile App,10,null,  10976 
+ORD-10453,2025-09-21,Brightwave,Team Plan,Subscription,Europe,Tom Becker,Direct Sales,1,667.25,€667.25
+ORD-10184,Aug 05 2025,Riverstone,Premium Plan,Subscription,Europe,Amira Benali,Mobile App,1,1123.53,1123.53
+ORD-10562,2025-04-01,Lumen Edu,Premium Plan,Subscription,Europe,Lucas Martin, Website  ,2,1306.68,-
+ORD-10393,26-Nov-2025,Kappa Energy,Analytics Add-on,Add-on,North America,Tom Becker, Website  ,1,€181.28,181.28
+ORD-10160,,Riverstone,Onboarding Pack,Services,EUROPE,Nadia Haddad,Direct Sales,1,443.61,443.61
+ORD-10541,18-Aug-2025,Futura Labs,STARTER PLAN,Subscription,Asia Pacific,Tom Becker,Direct Sales,2,308.92 EUR,€617.84
+ORD-10535,28-Jul-2025,Quartz Legal,ANALYTICS ADD-ON,Add-on,,Kenji Sato,Direct Sales,2,€195.08,€390.16
+ORD-10204,2025/06/10,Helix Robotics,Starter Plan,Subscription, Europe  ,Tom Becker,Direct Sales,10,€300.79,3007.90 EUR
+ORD-10052,2025/02/05,Riverstone,Custom Integration,Services,Europe,Kenji Sato,Website,3,"€2,549.65","€7,648.95"
+ORD-10422,Apr 19 2025,Granite Bank,Onboarding Pack,Services, Europe  ,Sofia Rossi, Mobile App  ,1,€421.34,421.34
+ORD-10561,2025-12-19,Echo Media, Analytics Add-on  ,Add-on,Europe,Kenji Sato, Partner  ,2,  176 ,3520.80 EUR
+ORD-10546,2025/05/28,Kappa Energy,Team Plan,Subscription,Europe,Lucas Martin,Mobile App,3,683.41,2050.23
+ORD-10111,2025-07-11,Lumen Edu,Team Plan,Subscription,North America,Amira Benali,Direct Sales,5,€698.05,  3490 
+ORD-10481,2025-09-03,Juniper Foods,Premium Plan,Subscription,North America,Lucas Martin,WEBSITE,2,  1092 ,"€2,184.70"
+ORD-10144,Nov 09 2025,Lumen Edu,onboarding pack,Services,Europe,Tom Becker, Direct Sales  ,1,419.97 EUR,419.97
+ORD-10402,2025-11-27,Riverstone,Premium Plan,Subscription,Europe,Amira Benali,Direct Sales,2,1146.57,"€2,293.14"
+ORD-10218,2025-08-11,Mosaic Travel,Premium Plan,Subscription,Asia Pacific,Sofia Rossi,Website,N/A,1128.50 EUR,5642.50 EUR
+ORD-10314,2025-03-02,Granite Bank,Onboarding Pack,Services,Europe,Kenji Sato,Mobile App,null,430.92,1723.68
+ORD-10383,2025/01/31,Atlas Logistics,Starter Plan,Subscription,North America,Tom Becker,Website,2,314.45 EUR,628.90
+ORD-10418,2025/12/15,Granite Bank,Starter Plan,Subscription,Europe,Amira Benali,Direct Sales,3,268.48 EUR,805.44
+ORD-10543,Jun 11 2025,Granite Bank,Custom Integration,Services,Europe,Lucas Martin,Mobile App,5,2314.91,11574.55
+ORD-10542,2025-09-20,Helix Robotics,Premium Plan,Subscription,North America,Amira Benali,Mobile App,2,"€1,255.72",  2511 
+ORD-10199,Sep 05 2025,Iris Studio,Starter Plan,Subscription,Europe,Kenji Sato,Website,1,  278 ,€278.07
+ORD-10195,2025-09-09,Riverstone,Starter Plan,Subscription,North America,Sofia Rossi,Direct Sales,2,318.52,  637 
+ORD-10222,2025-01-12,Brightwave,custom integration,Services,North America,Lucas Martin,Website,2,2427.04,4854.08 EUR
+ORD-10251,2025-11-09,Orbit Games,team plan,Subscription,Europe,Kenji Sato,mobile app,1,706.01 EUR,€706.01
+ORD-10210,2025-06-10,Atlas Logistics,Starter Plan,Subscription,Europe,Kenji Sato,Website,4,€310.18,  1241 
+ORD-10136,2025-04-26,Mosaic Travel,Starter Plan,Subscription,Asia Pacific,Sofia Rossi,WEBSITE,1,309.16,309.16 EUR
+ORD-10408,Oct 20 2025,Quartz Legal,ONBOARDING PACK,Services,North America,Nadia Haddad, Website  ,3,490.58,1471.74
+ORD-10333,2025-02-14,Helix Robotics,Starter Plan,Subscription,North America,Nadia Haddad,Partner,N/A,269.79 EUR,€809.37
+ORD-10345,2025-05-04,Riverstone,Starter Plan,Subscription,North America,Lucas Martin,Website,1,€297.75,  298 
+ORD-10372,2025-07-16,Orbit Games,STARTER PLAN,Subscription,Europe,Kenji Sato,Website,1,,275.54
+ORD-10474,Jan 30 2025,Orbit Games,Premium Plan,Subscription,Europe,Lucas Martin,Mobile App,4,"€1,282.01",5128.04
+ORD-10567,,Helix Robotics,Analytics Add-on,Add-on,europe,Kenji Sato,Partner,2,€180.91,361.82
+ORD-10454,2025/04/25,Granite Bank,Premium Plan,Subscription,Europe,Kenji Sato, Website  ,1,"€1,082.31",  1082 
+ORD-10463,2025/10/26,Atlas Logistics,Custom Integration,Services,Europe,Sofia Rossi,Website,4,2326.86 EUR,9307.44
+ORD-10471,Jun 07 2025,Cedar Health,Starter Plan,Subscription,Europe,Nadia Haddad,Mobile App,2,  314 ,627.86 EUR
+ORD-10427,24-May-2025,Iris Studio,Starter Plan,Subscription,north america,Sofia Rossi,Mobile App,2,€264.90,529.80
+ORD-10431,2025/01/18,Iris Studio,Onboarding Pack,Services,North America,Lucas Martin,website,4,  466 ,"€1,864.76"
+ORD-10415,2025-01-28,Atlas Logistics,Premium Plan,Subscription, Europe  ,Nadia Haddad, Mobile App  ,3,1139.27,N/A
+ORD-10213,2025-11-06,Helix Robotics,Premium Plan,Subscription,Europe,Lucas Martin,Website,4,  1276 ,5104.56 EUR
+ORD-10361,2025-03-15,Cedar Health,Starter Plan,Subscription,North America,Kenji Sato,Website,1,€290.48,290.48
+ORD-10128,2025-10-10,Orbit Games,PREMIUM PLAN,Subscription,North America,Lucas Martin,Mobile App,4,1093.90,"€4,375.60"
+ORD-10411,2025-06-13,Echo Media,Starter Plan,Subscription,Asia Pacific,Lucas Martin,Direct Sales,1,€318.38,318.38
+ORD-10232,Dec 16 2025,Iris Studio,Analytics Add-on,Add-on,Middle East,Amira Benali,Website,4,€165.84,663.36 EUR
+ORD-10554,2025-10-11,Futura Labs,analytics add-on,Add-on,Europe,Tom Becker,Mobile App,1,168.91,  169 
+ORD-10420,28-Jan-2025,Kappa Energy,Analytics Add-on,Add-on,Middle East,Kenji Sato,Website,1,null,185.35
+ORD-10470,2025-07-05,Juniper Foods,Custom Integration,Services,Asia Pacific,Kenji Sato,Website,3,"€2,280.01","€6,840.03"
+ORD-10043,2025/10/29,Lumen Edu, Premium Plan  ,Subscription,North America,Tom Becker,direct sales,5,"€1,148.69",5743.45 EUR
+ORD-10570,Nov 22 2025,Mosaic Travel, Starter Plan  ,Subscription,Europe,Amira Benali,Website,2,310.75,621.50
+ORD-10307,2025/12/07,Quartz Legal,Team Plan,Subscription,Asia Pacific,Nadia Haddad,Partner,4,694.56,2778.24
+ORD-10442,Nov 19 2025,Nova Fintech,Onboarding Pack,Services,Europe,Lucas Martin,Mobile App,5,449.95,2249.75
+ORD-10021,2025-10-21,Helix Robotics,Starter Plan,Subscription,Asia Pacific,Lucas Martin,DIRECT SALES,5,304.13,"€1,520.65"
+ORD-10376,2025/10/19,Mosaic Travel,Onboarding Pack,Services,Middle East,Tom Becker,Direct Sales,1,413.53 EUR,413.53
+ORD-10570,Nov 22 2025,Mosaic Travel, Starter Plan  ,Subscription,Europe,Amira Benali,Website,2,310.75,621.50
+ORD-10263,Oct 03 2025,Iris Studio,PREMIUM PLAN,Subscription,Europe,Sofia Rossi,Mobile App,3,1246.13,  3738 
+ORD-10397,2025/06/09,Futura Labs,custom integration,Services,Europe,Amira Benali,Mobile App,5,"€2,340.75",11703.75 EUR
+ORD-10178,2025-09-19,Futura Labs,Team Plan,Subscription,europe,Kenji Sato, Direct Sales  ,1,686.92,686.92
+ORD-10293,01-Feb-2025,Granite Bank, Premium Plan  ,Subscription,N/A,Tom Becker,Website,3,1261.09,3783.27 EUR
+ORD-10147,2025-12-07,Orbit Games, Starter Plan  ,Subscription,North America,Tom Becker,partner,1,€283.12,€283.12
+ORD-10593,Nov 25 2025,Granite Bank,premium plan,Subscription,North America,Tom Becker,Mobile App,2,1248.53,"€2,497.06"
+ORD-10368,2025-02-06,Futura Labs,Analytics Add-on,Add-on,Europe,Lucas Martin,Website,3,  165 ,493.56
+ORD-10549,Sep 30 2025,Quartz Legal,Starter Plan,Subscription,,Sofia Rossi,Mobile App,5,309.72 EUR,1548.60
+ORD-10591,07-Jul-2025,Delta Retail,Custom Integration,Services,North America,Lucas Martin, Direct Sales  ,4,2373.65,"€9,494.60"
+ORD-10156,2025-05-26,Brightwave,Starter Plan,Subscription,North America,Tom Becker,MOBILE APP,3,271.92,€815.76
+ORD-10490,2025-06-16,Helix Robotics,Onboarding Pack,Services,null,Sofia Rossi,Website,1,null,€476.96
+ORD-10465,2025-02-18,Lumen Edu,Starter Plan,Subscription,North America,Nadia Haddad,Partner,3,€318.41,955.23 EUR
+ORD-10353,2025-09-22,Pixel Forge,Premium Plan,Subscription,EUROPE,Lucas Martin,Website,4,1304.41 EUR,"€5,217.64"
+ORD-10256,2025-12-22,Quartz Legal,premium plan,Subscription,North America,Tom Becker,Direct Sales,5,1260.14,6300.70
+ORD-10502,11-Jun-2025,Delta Retail,Starter Plan,Subscription,Middle East,Sofia Rossi,partner,1,268.32,268.32 EUR
+ORD-10243,Jul 22 2025,Orbit Games,Starter Plan,Subscription,Europe,Sofia Rossi,Website,1,287.72,287.72
+ORD-10460,2025-11-28,Lumen Edu,Onboarding Pack,Services,Europe,Kenji Sato,Direct Sales,1,450.41,€450.41
+ORD-10596,Dec 14 2025,Lumen Edu,Premium Plan,Subscription,europe,Nadia Haddad,Mobile App,4,"€1,316.26","€5,265.04"
+ORD-10289,Mar 02 2025,Echo Media,STARTER PLAN,Subscription,North America,null,Mobile App,1,€264.39,264.39
+ORD-10395,Mar 17 2025,Pixel Forge,Onboarding Pack,Services,Asia Pacific,Lucas Martin,Mobile App,1,471.22 EUR,471.22 EUR
+ORD-10585,2025-12-17,Riverstone,starter plan,Subscription,Europe,Tom Becker,Mobile App,1,€310.88,310.88 EUR
+ORD-10487,2025/12/20,Delta Retail,Starter Plan,Subscription,europe,Tom Becker,Mobile App,4,291.22,1164.88
+ORD-10020,2025-06-22,Quartz Legal,Premium Plan,Subscription,North America,Lucas Martin,Mobile App,5,"€1,292.51",  6463 
+ORD-10075,2025/12/25,Futura Labs,team plan,Subscription,Europe,Amira Benali,Mobile App,1,  699 ,  699 
+ORD-10558,2025-09-04,Kappa Energy,Onboarding Pack,Services,Europe,Lucas Martin,Direct Sales,1,406.97,406.97 EUR
+ORD-10577,2025-11-29,Iris Studio,Starter Plan,Subscription,Asia Pacific,Sofia Rossi,Direct Sales,3,286.08,858.24 EUR
+ORD-10036,2025-09-22,Helix Robotics,Onboarding Pack,Services,EUROPE,Lucas Martin,Direct Sales,5,444.43,"€2,222.15"
+ORD-10229,2025-04-05,null,Analytics Add-on,Add-on,North America,Nadia Haddad,DIRECT SALES,1,195.20,  195 
+ORD-10122,2025-12-06,-, Onboarding Pack  ,Services,Europe,Tom Becker,Direct Sales,4,406.47,1625.88
+ORD-10580,2025-11-13,Orbit Games,Onboarding Pack,Services,Asia Pacific,Lucas Martin,Website,4,435.96,1743.84
+ORD-10396,Aug 14 2025,Brightwave,Starter Plan,Subscription,North America,Lucas Martin,Website,5,283.84,1419.20
+ORD-10059,2025-09-24,Juniper Foods,Onboarding Pack,Services,North America,Nadia Haddad,Partner,1,446.56 EUR,  447 
+ORD-10576,Mar 17 2025,Iris Studio,Analytics Add-on,Add-on,North America,Tom Becker,Direct Sales,5,€196.18,980.90 EUR
+ORD-10003,2025-10-12,Cedar Health,Premium Plan,Subscription,Europe,Tom Becker,Mobile App,1,1277.23,1277.23 EUR
+ORD-10390,2025-06-17,Pixel Forge,Team Plan,Subscription,North America,Kenji Sato,Mobile App,5,687.03 EUR,3435.15
+ORD-10006,2025-08-15,Brightwave,Premium Plan,Subscription,EUROPE,Amira Benali,Website,5,1290.89 EUR,6454.45
+ORD-10239,2025-01-18,Juniper Foods,Team Plan,Subscription,North America,Lucas Martin,Website,1,599.16,599.16
+ORD-10106,2025-12-30,Juniper Foods,Starter Plan,Subscription,europe,Tom Becker,mobile app,1,300.42,  300 
+ORD-10294,04-Sep-2025,,Premium Plan,Subscription,North America,Kenji Sato,Website,1,  1126 ,1125.97
+ORD-10039,2025-07-28,N/A,Premium Plan,Subscription,North America,Kenji Sato,Direct Sales,5,1289.81,6449.05
+ORD-10379,15-Apr-2025,Brightwave,custom integration,Services, North America  ,Nadia Haddad,Website,2,"€2,191.02","€4,382.04"
+ORD-10329,2025/12/10,Nova Fintech,Starter Plan,Subscription,North America,Lucas Martin,Mobile App,3,268.61 EUR,805.83
+ORD-10173,2025-12-03,Echo Media,Starter Plan,Subscription,North America,Tom Becker,Mobile App,1,€284.08,284.08
+ORD-10017,2025-07-05,N/A,Onboarding Pack,Services,EUROPE,Sofia Rossi,Direct Sales,2,  440 ,879.34 EUR
+ORD-10547,2025-03-19,Juniper Foods,Team Plan,Subscription, North America  ,Nadia Haddad,Partner,1,681.69 EUR,  682 
+ORD-10530,2025-04-23,Nova Fintech,Analytics Add-on,Add-on,Europe,N/A,Website,5,176.40,€882.00
+ORD-10419,2025-03-20,Juniper Foods,Premium Plan,Subscription,North America,N/A,Mobile App,4,  1189 ,4757.24
+ORD-10066,2025-05-11,Iris Studio,custom integration,Services,North America,Kenji Sato,Website,3,2375.33,71259.90 EUR
+ORD-10114,2025-08-31,Granite Bank,Analytics Add-on,Add-on,EUROPE,Sofia Rossi,Partner,1,185.06,185.06
+ORD-10058,2025-09-29,Pixel Forge,Premium Plan,Subscription,Europe,Nadia Haddad,Website,1,  1117 ,"€1,116.69"
+ORD-10325,,Pixel Forge,Analytics Add-on,Add-on,Europe,Tom Becker,Direct Sales,1,162.64,162.64 EUR
+ORD-10560,07-Nov-2025,Cedar Health,Team Plan,Subscription,North America,Tom Becker,Mobile App,1,€704.92,704.92 EUR
+ORD-10146,2025-05-03,Nova Fintech,Starter Plan,Subscription,Europe,N/A,Website,2,€309.71,619.42 EUR
+ORD-10164,,Cedar Health,Starter Plan,Subscription,Europe,Amira Benali,DIRECT SALES,1,  315 ,€315.12

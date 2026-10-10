@@ -1,0 +1,40 @@
+# Environment
+.env
+.env.local
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project
+.tmp/
+*.log
+logs/
+
+# Data (raw input - keep locally, don't commit)
+data/raw/*
+data/cleaned/*
+data/reports/*
+!data/*/.gitkeep
+# demo dataset is versioned so the project runs out of the box
+!data/raw/sample_sales_data.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.pytest_cache/
+.mypy_cache/

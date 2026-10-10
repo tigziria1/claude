@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ source }} Intelligence Report</title>
+<style>
+{% include "_theme.css.j2" %}
+.wrap { max-width: 900px; }
+.doc { padding: 40px 48px; }
+.doc header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 8px; }
+.doc h2 { margin: 30px 0 10px; padding-top: 4px; font-size: 1.15rem; }
+.doc h2 .icon { margin-right: 6px; }
+.doc p + p { margin-top: 10px; }
+.lead { font-size: 1.12rem; font-weight: 600; margin-top: 14px; }
+.kpis { margin-top: 10px; }
+.kpis .card { box-shadow: none; background: var(--surface-2); border: 0; }
+ol.items { padding-left: 20px; margin: 0; }
+ol.items li { margin: 0 0 14px; }
+ol.items .evidence { color: var(--text-muted); font-size: 0.88rem; margin-top: 2px; }
+.data-table { margin-top: 8px; }
+.chart-box { height: 260px; }
+.signature { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 0.88rem; color: var(--text-secondary); }
+.actions { display: flex; gap: 8px; justify-content: flex-end; margin-bottom: 12px; }
+@media (max-width: 640px) { .doc { padding: 22px 18px; } }
+@media print {
+  body { background: #fff; }
+  .actions { display: none; }
+  .wrap { padding: 0; max-width: none; }
+  .card, .doc { border: 0; box-shadow: none; padding: 0; }
+  h2 { break-after: avoid; }
+  .chart-box, table, ol.items li { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="actions">
+    {% if dashboard_file %}<a class="theme-toggle" href="{{ dashboard_file }}" style="text-decoration:none">Open dashboard</a>{% endif %}
+    <button class="theme-toggle" type="button" onclick="window.print()">Print / Save as PDF</button>
+    <button class="theme-toggle" id="theme-toggle" type="button">Toggle theme</button>
+  </div>
+  <article class="card doc">
+    <header>
+      <p class="muted" style="font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase">Data Intelligence Report</p>
+      <h1 style="margin-top:6px">{{ source }}{% if period %} · {{ period }}{% endif %}</h1>
+      <p class="muted" style="margin-top:6px">Generated {{ generated_at }} by DataBot
+        · {% if engine == "claude" %}insights by Claude ({{ model }}){% else %}rule-based insights (Claude not used){% endif %}</p>
+      <p class="lead">{{ insights.headline }}</p>
+    </header>
+
+    {% for note in notes %}<p class="notice" style="margin-top:12px">{{ note }}</p>{% endfor %}
+
+    <h2><span class="icon" aria-hidden="true">📊</span>Executive summary</h2>
+    <p>{{ insights.executive_summary }}</p>
+    <div class="kpis">
+      {% for k in kpis %}
+      <div class="card kpi"><div class="label">{{ k.label }}</div><div class="value">{{ k.value }}</div>{% if k.sub %}<div class="sub {{ k.delta_class }}">{{ k.sub }}</div>{% endif %}</div>
+      {% endfor %}
+    </div>
+
+    {% if chart_data.monthly %}
+    <h2><span class="icon" aria-hidden="true">📈</span>{{ amount_label }} by month</h2>
+    <div class="chart-box"><canvas id="chart-monthly" role="img" aria-label="{{ amount_label }} by month"></canvas></div>
+    <div class="table-scroll data-table"><table>
+      <thead><tr><th>Month</th><th class="num">{{ amount_label }}</th><th class="num">Records</th><th class="num">vs previous month</th></tr></thead>
+      <tbody>{% for m in monthly_rows %}<tr><td>{{ m.month }}</td><td class="num">{{ m.total }}</td><td class="num">{{ m.records }}</td><td class="num {{ m.delta_class }}">{{ m.change }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+    {% endif %}
+
+    <h2><span class="icon" aria-hidden="true">🔍</span>Key insights</h2>
+    <ol class="items">
+      {% for item in insights.key_insights %}
+      <li><b>{{ item.title }}</b> <span class="pill {{ item.impact }}">{{ item.impact }} impact</span>
+        <p class="secondary" style="margin-top:4px">{{ item.detail }}</p>
+        <p class="evidence">Evidence: {{ item.evidence }}</p></li>
+      {% endfor %}
+    </ol>
+
+    {% for dim in chart_data.dimensions[:2] %}
+    <h3 style="margin-top:22px">{{ amount_label }} by {{ dim.title }}</h3>
+    <div class="chart-box" style="height: {{ 60 + 30 * dim.labels|length }}px"><canvas id="chart-dim-{{ loop.index0 }}" role="img" aria-label="{{ amount_label }} by {{ dim.title }}"></canvas></div>
+    {% endfor %}
+
+    {% if insights.trends %}
+    <h2><span class="icon" aria-hidden="true">↗</span>Trends</h2>
+    <ul class="clean">{% for t in insights.trends %}<li>{{ t }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    {% if insights.anomalies %}
+    <h2><span class="icon" aria-hidden="true">⚠️</span>Anomalies</h2>
+    <ul class="clean">{% for a in insights.anomalies %}<li>{{ a }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    <h2><span class="icon" aria-hidden="true">🔮</span>Outlook</h2>
+    <p>{{ insights.forecast }}</p>
+
+    <h2><span class="icon" aria-hidden="true">✅</span>Recommendations</h2>
+    <ol class="items">
+      {% for rec in insights.recommendations %}
+      <li><b>{{ rec.action }}</b> <span class="pill {{ rec.priority }}">{{ rec.priority }} priority</span>
+        <p class="secondary" style="margin-top:4px">{{ rec.rationale }}</p>
+        <p class="evidence">Expected impact: {{ rec.expected_impact }}</p></li>
+      {% endfor %}
+    </ol>
+
+    {% if insights.questions_to_investigate %}
+    <h2><span class="icon" aria-hidden="true">❓</span>Questions to investigate</h2>
+    <ul class="clean">{% for q in insights.questions_to_investigate %}<li>{{ q }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    <h2><span class="icon" aria-hidden="true">🧹</span>Data quality</h2>
+    <p>Quality score improved from <b>{{ quality_before }}%</b> to <b>{{ quality_after }}%</b>
+      ({{ cleaning.rows_before }} → {{ cleaning.rows_after }} rows).</p>
+    <ul class="clean">
+      {% for action in cleaning.actions %}<li>{{ action }}</li>{% endfor %}
+      {% for note in insights.data_quality_notes %}<li>{{ note }}</li>{% endfor %}
+    </ul>
+
+    <div class="signature">
+      — Generated by <b>Data Intelligence Agent</b>{% if author %} for {{ author }}{% endif %}{% if company %}, {{ company }}{% endif %} · {{ generated_at }}<br>
+      Source file: {{ source }} · Cleaned data: {{ cleaned_file }}
+    </div>
+  </article>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const CHART_DATA = {{ chart_data | tojson }};
+{% include "_charts.js.j2" %}
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+// Theme toggle (persists per browser; storage may be unavailable).
+(function () {
+  const root = document.documentElement;
+  try { const saved = localStorage.getItem("dia-theme"); if (saved) root.dataset.theme = saved; } catch (e) {}
+  const button = document.getElementById("theme-toggle");
+  if (button) button.addEventListener("click", function () {
+    const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    root.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("dia-theme", root.dataset.theme); } catch (e) {}
+    renderCharts();
+  });
+})();
+
+const CURRENCY = {{ currency | tojson }};
+function fmtValue(v, compact) {
+  if (v === null || v === undefined || isNaN(v)) return "–";
+  const opts = { maximumFractionDigits: Math.abs(v) >= 100 ? 0 : 2 };
+  if (compact) { opts.notation = "compact"; opts.maximumFractionDigits = 1; }
+  if (CURRENCY) { opts.style = "currency"; opts.currency = CURRENCY; }
+  return new Intl.NumberFormat(undefined, opts).format(v);
+}
+
+const charts = [];
+function cssVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+function renderCharts() {
+  if (typeof Chart === "undefined") {
+    document.querySelectorAll(".chart-box").forEach(function (box) {
+      box.innerHTML = '<p class="muted">Charts need an internet connection (they load Chart.js from a CDN). All figures are also listed in the insights and tables on this page.</p>';
+      box.style.height = "auto";
+    });
+    return;
+  }
+  charts.splice(0).forEach(function (c) { c.destroy(); });
+  const ink = cssVar("--text-secondary"), grid = cssVar("--grid"), series = cssVar("--series-1"),
+        soft = cssVar("--series-1-soft"), surface = cssVar("--surface-1");
+  Chart.defaults.color = ink;
+  Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+  const tooltip = {
+    backgroundColor: cssVar("--text-primary"), titleColor: surface, bodyColor: surface,
+    padding: 10, cornerRadius: 8, displayColors: false,
+    callbacks: { label: function (ctx) { return fmtValue(ctx.parsed[ctx.chart.options.indexAxis === "y" ? "x" : "y"]); } }
+  };
+
+  const monthly = document.getElementById("chart-monthly");
+  if (monthly && CHART_DATA.monthly) {
+    charts.push(new Chart(monthly, {
+      type: "line",
+      data: { labels: CHART_DATA.monthly.labels, datasets: [{
+        data: CHART_DATA.monthly.values, borderColor: series, backgroundColor: soft, fill: true,
+        borderWidth: 2, tension: 0, pointRadius: 4, pointHoverRadius: 6,
+        pointBackgroundColor: series, pointBorderColor: surface, pointBorderWidth: 2 }] },
+      options: {
+        maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+        plugins: { legend: { display: false }, tooltip: tooltip },
+        scales: {
+          x: { grid: { display: false }, border: { color: grid } },
+          y: { beginAtZero: true, grid: { color: grid }, border: { display: false },
+               ticks: { callback: function (v) { return fmtValue(v, true); } } }
+        }
+      }
+    }));
+  }
+
+  (CHART_DATA.dimensions || []).forEach(function (dim, i) {
+    const canvas = document.getElementById("chart-dim-" + i);
+    if (!canvas) return;
+    charts.push(new Chart(canvas, {
+      type: "bar",
+      data: { labels: dim.labels, datasets: [{ data: dim.values, backgroundColor: series,
+        borderRadius: 4, borderSkipped: "start", maxBarThickness: 18 }] },
+      options: {
+        indexAxis: "y", maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: tooltip },
+        scales: {
+          x: { beginAtZero: true, grid: { color: grid }, border: { display: false },
+               ticks: { maxTicksLimit: 5, callback: function (v) { return fmtValue(v, true); } } },
+          y: { grid: { display: false }, border: { color: grid } }
+        }
+      }
+    }));
+  });
+}
+window.addEventListener("load", renderCharts);
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderCharts);

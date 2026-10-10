@@ -1,0 +1,9 @@
+# Claude API (1.x SDK: structured outputs, adaptive thinking, refusal fallbacks)
+anthropic>=1.13,<2
+python-dotenv>=1.0
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1          # .xlsx reading
+jinja2>=3.1            # HTML dashboard / report templates
+APScheduler>=3.10,<4   # optional: python main.py --schedule 09:00
+pytest>=8              # tests
