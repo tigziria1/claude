@@ -370,6 +370,7 @@ svg { flex-shrink: 0; }
 .formulaire__titre { font-family: var(--titres); font-size: 24px; font-weight: 800; }
 .champs { display: flex; flex-wrap: wrap; gap: 16px; }
 .champ { flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.formulaire > .champ { flex: none; } /* champ seul sur sa ligne : pas d'étirement vertical */
 .champ label { font-size: 14px; font-weight: 600; }
 .champ input, .champ textarea {
   min-height: 48px; padding: 0 14px; border: 1.5px solid var(--bordure-champ); border-radius: 10px;
@@ -551,6 +552,6 @@ svg { flex-shrink: 0; }
 .erreur-404__contenu {
   max-width: 1200px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; gap: 24px; align-items: flex-start;
 }
-.erreur-404__code { font-family: var(--titres); font-size: clamp(96px, 16vw, 180px); font-weight: 800; line-height: 0.9; color: var(--accent); }
+.erreur-404 .erreur-404__code { font-family: var(--titres); font-size: clamp(96px, 16vw, 180px); font-weight: 800; line-height: 0.9; color: var(--accent); }
 .erreur-404 h1 { font-size: clamp(32px, 3.4vw, 46px); line-height: 1.08; font-weight: 800; }
 .erreur-404 p { font-size: 18px; line-height: 1.6; color: var(--clair-2); max-width: 560px; }

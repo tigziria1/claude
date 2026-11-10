@@ -73,11 +73,31 @@ var WEB3FORMS_ACCESS_KEY = '';
   modal.addEventListener('click', function (e) {
     if (e.target === modal) fermer();
   });
-  // Touche Échap (filet de sécurité pour les navigateurs sans showModal).
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && modal.open) {
+    if (!modal.open) return;
+    // Touche Échap (filet de sécurité pour les navigateurs sans showModal).
+    if (e.key === 'Escape') {
       e.preventDefault();
       fermer();
+      return;
+    }
+    // Touche Tab : le focus tourne en boucle à l'intérieur de la fenêtre.
+    if (e.key === 'Tab') {
+      var focusables = Array.prototype.filter.call(
+        modal.querySelectorAll('button, input:not([type="hidden"]):not(.piege), textarea, a[href]'),
+        function (el) { return !el.disabled && el.offsetParent !== null; }
+      );
+      if (!focusables.length) return;
+      var premier = focusables[0];
+      var dernier = focusables[focusables.length - 1];
+      var actif = document.activeElement;
+      if (e.shiftKey && (actif === premier || !modal.contains(actif))) {
+        e.preventDefault();
+        dernier.focus();
+      } else if (!e.shiftKey && (actif === dernier || !modal.contains(actif))) {
+        e.preventDefault();
+        premier.focus();
+      }
     }
   });
 
